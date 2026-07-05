@@ -1,6 +1,6 @@
 import slider1 from "../images/slide-1.jpg";
-import abouticon from "../images/about-icons-1.svg";
-import slider2 from "../images/slider-2.jpg";
+// import abouticon from "../images/about-icons-1.svg";
+// import slider2 from "../images/slider-2.jpg";
 import adbanner1 from "../images/ad-banner-1.jpg";
 import adbanner2 from "../images/ad-banner-2.jpg";
 import adbanner3 from "../images/ad-banner-3.jpg";
@@ -18,10 +18,10 @@ import fruitsvegetables from "../images/fruits-vegetables.png";
 import dairybreadeggs from "../images/dairy-bread-eggs.png";
 import grocerybanner from "../images/grocery-banner.png";
 import grocerybanner2 from "../images/grocery-banner-2.jpg";
-import map from "../images/map.png";
-import iphone from "../images/iphone-2.png";
-import googleplay from "../images/googleplay-btn.svg";
-import appstore from "../images/appstore-btn.svg";
+// import map from "../images/map.png";
+// import iphone from "../images/iphone-2.png";
+// import googleplay from "../images/googleplay-btn.svg";
+// import appstore from "../images/appstore-btn.svg";
 import bannerdeal from "../images/banner-deal1.jpg";
 import product11 from "../images/product-img-11.jpg";
 import product12 from "../images/product-img-12.jpg";
@@ -30,16 +30,16 @@ import clock from "../images/clock.svg";
 import gift from "../images/gift.svg";
 import package1 from "../images/package.svg";
 import refresh from "../images/refresh-cw.svg";
-import product1 from "../images/category-baby-care.jpg";
-import product2 from "../images/category-atta-rice-dal.jpg";
-import product3 from "../images/category-bakery-biscuits.jpg";
-import product4 from "../images/category-chicken-meat-fish.jpg";
-import product5 from "../images/category-cleaning-essentials.jpg";
-import product6 from "../images/category-dairy-bread-eggs.jpg";
-import product7 from "../images/category-instant-food.jpg";
-import product8 from "../images/category-pet-care.jpg";
-import product9 from "../images/category-snack-munchies.jpg";
-import product10 from "../images/category-tea-coffee-drinks.jpg";
+// import product1 from "../images/category-baby-care.jpg";
+// import product2 from "../images/category-atta-rice-dal.jpg";
+// import product3 from "../images/category-bakery-biscuits.jpg";
+// import product4 from "../images/category-chicken-meat-fish.jpg";
+// import product5 from "../images/category-cleaning-essentials.jpg";
+// import product6 from "../images/category-dairy-bread-eggs.jpg";
+// import product7 from "../images/category-instant-food.jpg";
+// import product8 from "../images/category-pet-care.jpg";
+// import product9 from "../images/category-snack-munchies.jpg";
+// import product10 from "../images/category-tea-coffee-drinks.jpg";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import ProductItem from "../ProductList/ProductItem";
@@ -52,7 +52,7 @@ import { useEffect } from "react";
 import { MagnifyingGlass } from "react-loader-spinner";
 import FAQ from "./FooterElements/Faq";
 const Home = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
@@ -136,66 +136,66 @@ const Home = () => {
     autoplay: true,
     autoplaySpeed: 2000,
   };
-  const settings2 = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 2,
-    initialSlide: 1,
-    responsive: [
-      {
-        breakpoint: 1600,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          initialSlide: 1,
-        },
-      },
-      {
-        breakpoint: 900,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          initialSlide: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          initialSlide: 1,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          initialSlide: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-    autoplay: true,
-    autoplaySpeed: 2000,
-  };
+  // const settings2 = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 5,
+  //   slidesToScroll: 2,
+  //   initialSlide: 1,
+  //   responsive: [
+  //     {
+  //       breakpoint: 1600,
+  //       settings: {
+  //         slidesToShow: 5,
+  //         slidesToScroll: 1,
+  //         infinite: true,
+  //         dots: true,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 4,
+  //         slidesToScroll: 1,
+  //         initialSlide: 1,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 900,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 1,
+  //         initialSlide: 1,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 768,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 1,
+  //         initialSlide: 1,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 600,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 1,
+  //         initialSlide: 1,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 480,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //       },
+  //     },
+  //   ],
+  //   autoplay: true,
+  //   autoplaySpeed: 2000,
+  // };
   // loading
   const [loaderStatus, setLoaderStatus] = useState(true);
   useEffect(() => {

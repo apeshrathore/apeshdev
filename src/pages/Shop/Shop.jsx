@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { MagnifyingGlass } from 'react-loader-spinner'
-import assortment from "../../images/assortment-citrus-fruits.png";
+// import assortment from "../../images/assortment-citrus-fruits.png";
 import { Link } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
