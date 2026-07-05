@@ -10,9 +10,9 @@ const SocialNetworksCarousel = () => {
   return (
     <section className="container text-center mt-8 py-5 my-2 my-md-4 my-lg-5">
       <Slide direction="up">
-      <h2 className="h1 mb-4">We Have Social Networks</h2>
+      <h2 className="h1 mb-4">Follow Jyoti Revolution Food Industry</h2>
       <p className="fs-lg text-muted pb-2 mb-5">
-        Follow us and keep up to date with the freshest news!
+        Stay connected with us for product updates, manufacturing insights, and the latest announcements.
       </p>
       </Slide>
       <Swiper
@@ -30,11 +30,11 @@ const SocialNetworksCarousel = () => {
             {" "}
             <Zoom>
               <Link
-                to="#"
+                to="https://www.facebook.com/jyotirevolutionfood/"
                 className="btn btn-icon btn-secondary btn-facebook btn-lg stretched-link"
               >
                 <i className="bx bxl-facebook"></i>
-              </Link>{" "}
+              </Link>{""}
             </Zoom>
             <div className="pt-4">
               <h6 className="mb-1">Facebook</h6>
@@ -47,7 +47,7 @@ const SocialNetworksCarousel = () => {
           <div className="position-relative text-center border-end mx-n1">
             <Zoom>
               <Link
-                to="#"
+                to="https://www.instagram.com/jyotirevolutionfood/"
                 className="btn btn-icon btn-secondary btn-instagram btn-lg stretched-link"
               >
                 <i className="bx bxl-instagram"></i>
@@ -99,7 +99,7 @@ const SocialNetworksCarousel = () => {
           <div className="position-relative text-center border-end mx-n1">
             <Zoom>
               <Link
-                to="#"
+                to="https://www.youtube.com/@jyotirevolutionindustry"
                 className="btn btn-icon btn-secondary btn-youtube btn-lg stretched-link"
               >
                 <i className="bx bxl-youtube"></i>

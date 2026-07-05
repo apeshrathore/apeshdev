@@ -227,7 +227,7 @@ const Home = () => {
               <div className="scroll-to-top">
                 <button
                   onClick={scrollToTop}
-                  className={`scroll-to-top-button ${isVisible ? "show" : ""}`}
+                  className={`scroll-to-top-button Rs {i0sVisible ? "show" : ""}`}
                 >
                   ↑
                 </button>
@@ -243,55 +243,70 @@ const Home = () => {
                       <div className="carousel-item active">
                         <div
                           style={{
+                            // background: `url(Rs {s  lider1}) no-repeat`,
+                            // backgroundSize: "cover",
+                            // borderRadius: ".5rem",
+                            // backgroundPosition: "center",
                             background: `url(${slider1}) no-repeat`,
                             backgroundSize: "cover",
-                            borderRadius: ".5rem",
                             backgroundPosition: "center",
+                            borderRadius: ".5rem",
                           }}
                         >
                           <div className="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                             <span className="badge text-bg-warning">
-                              Opening Sale Discount 50%
+                              Where Purity Meets Perfection.
                             </span>
-                            <h2 className="text-dark display-5 fw-bold mt-4">
-                              SuperMarket Daily <br /> Fresh Grocery
+                            <h2 className="text-dark display-6 fw-bold mt-4">
+                              JYOTI REVOLUTION <br /> FOOD INDUSTRY
                             </h2>
-                            <p className="lead">
-                              Introduced a new model for online grocery shopping
-                              and convenient home delivery.
+                            <p className="lead" style={{ color: "red" }}>
+                              हर चुटकी में शुद्धता, हर घर में स्वाद.
                             </p>
-                            <Link to="#!" className="btn btn-dark mt-3">
+                            <p className="lead">आज ही हमसे संपर्क करें।<br />
+                              Add: Mandideep, Dist - Riasen ( M.P.) <br />
+                              +91 7869427139 <br />
+                              Email:jyotirevolutionfoodindustry@gmail.com</p>
+                            {/* <Link to="#!" className="btn btn-dark mt-3">
                               Shop Now{" "}
                               <i className="feather-icon icon-arrow-right ms-1" />
-                            </Link>
+                            </Link> */}
                           </div>
                         </div>
                       </div>
                       <div className="carousel-item">
                         <div
                           style={{
-                            background: `url(${slider2}) no-repeat`,
+                            // background: `url(Rs {s0lider2}) no-repeat`,
+                            // backgroundSize: "cover",
+                            // borderRadius: ".5rem",
+                            // backgroundPosition: "center",
+                            background: `url(${slider1}) no-repeat`,
                             backgroundSize: "cover",
-                            borderRadius: ".5rem",
                             backgroundPosition: "center",
+                            borderRadius: ".5rem",
                           }}
                         >
                           <div className="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                             <span className="badge text-bg-warning">
-                              Free Shipping - orders over $100
+                              Delivering Quality, Preserving Tradition.
                             </span>
                             <h2 className="text-dark display-5 fw-bold mt-4">
-                              Free Shipping on <br /> orders over{" "}
-                              <span className="text-primary">$100</span>
+                              Pure Spices • Pure Taste • Pure Trust<br />{" "}
+                              <span className="text-primary"></span>
                             </h2>
                             <p className="lead">
-                              Free Shipping to First-Time Customers Only, After
-                              promotions and discounts are applied.
+                              🎉 थोक खरीद पर आकर्षक छूट उपलब्ध!
+                              जितनी अधिक मात्रा, उतना अधिक लाभ। <br /> <br /> 
+                              FSSAI प्रमाणित, गुणवत्ता में विश्वास. <br />
+                              Lic No. 21425030000922 <br />
+                              
+
                             </p>
-                            <Link to="#!" className="btn btn-dark mt-3">
+                            {/* <Link to="#!" className="btn btn-white mt-3">
                               Shop Now{" "}
                               <i className="feather-icon icon-arrow-right ms-1" />
-                            </Link>
+                            </Link> */}
                           </div>
                         </div>
                       </div>
@@ -306,6 +321,7 @@ const Home = () => {
                         className="carousel-control-prev-icon"
                         aria-hidden="true"
                       />
+                      
                       <span className="visually-hidden">Previous</span>
                     </Link>
                     <Link
@@ -314,8 +330,13 @@ const Home = () => {
                       role="button"
                       data-bs-slide="next"
                     >
+                      {/* <span
+                        className="carousel-control-next-icon"
+                        aria-hidden="true"
+                      /> */}
                       <span
                         className="carousel-control-next-icon"
+                        style={{ filter: "brightness(0)" }}
                         aria-hidden="true"
                       />
                       <span className="visually-hidden">Next</span>
@@ -324,48 +345,7 @@ const Home = () => {
                 </div>
               </section>
             </>
-            <>
-              <section className="mt-8">
-                {/* contianer */}
-                <div className="container ">
-                  <div className="row">
-                    {/* col */}
-                    <Slide direction="down">
-                      <div className="col-12">
-                        {/* cta */}
-                        <div className="bg-light d-lg-flex justify-content-between align-items-center py-6 py-lg-3 px-8 rounded-3 text-center text-lg-start">
-                          {/* img */}
-                          <div className="d-lg-flex align-items-center">
-                            <img
-                              src={abouticon}
-                              alt="about-icon"
-                              className="img-fluid"
-                            />
-                            {/* text */}
-                            <div className="ms-lg-4">
-                              <h1 className="fs-2 mb-1">
-                                Welcome to FreshCart
-                              </h1>
-                              <span>
-                                Download the app get free food &amp;{" "}
-                                <span className="text-primary">$30</span> off on
-                                your first order.
-                              </span>
-                            </div>
-                          </div>
-                          <div className="mt-3 mt-lg-0">
-                            {/* btn */}
-                            <Link to="#" className="btn btn-dark">
-                              Download FreshCart App
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </Slide>
-                  </div>
-                </div>
-              </section>
-            </>
+            {/* yaha ki lines mere 2nd whatsapp pr milengi  */}
             <>
               {/* section */}
               <section className="mt-8">
@@ -385,20 +365,20 @@ const Home = () => {
                             />
                             <div className="banner-text">
                               <h3 className="mb-0 fw-bold">
-                                10% cashback on <br />
-                                personal care{" "}
+                                थोक खरीद पर <br /> आकर्षक छूट🎉
+                                {" "}
                               </h3>
                               <div className="mt-4 mb-5 fs-5">
-                                <p className="mb-0">Max cashback: $12</p>
+                                <p className="mb-0">अधिक मात्रा में खरीदें और विशेष <br/> व्यापारिक छूट का लाभ उठाएँ।</p>
                                 <span>
-                                  Code:{" "}
+                                  {/* Code:{" "} */}
                                   <span className="fw-bold text-dark">
-                                    CARE12
+                                    {/* 👉 अभी संपर्क करें */}
                                   </span>
                                 </span>
                               </div>
-                              <Link to="#" className="btn btn-dark">
-                                Shop Now
+                              <Link to="/contact" className="btn btn-dark">
+                                👉अभी संपर्क करें
                               </Link>
                             </div>
                             {/* Banner Content */}
@@ -421,15 +401,15 @@ const Home = () => {
                             <div className="banner-text">
                               {/* Banner Content */}
                               <h3 className=" fw-bold mb-2">
-                                Say yes to <br />
-                                season’s fresh{" "}
+                                शुद्ध मसाले, <br />बेहतरीन स्वाद🌿<br />
+                                {" "}
                               </h3>
                               <p className="fs-5">
-                                Refresh your day <br />
-                                the fruity way
+                                हर पैक में गुणवत्ता,<br /> ताज़गी और भरोसे का वादा।<br />
+                                
                               </p>
-                              <Link to="#" className="btn btn-dark mt-2">
-                                Shop Now
+                              <Link to="/shop" className="btn btn-dark mt-2">
+                                👉उत्पाद देखें
                               </Link>
                             </div>
                           </div>
@@ -449,17 +429,17 @@ const Home = () => {
                             {/* Banner Content */}
                             <div className="banner-text">
                               <h3 className="fs-2 fw-bold lh-1 mb-2">
-                                When in doubt,
+                                हर रसोई की <br />पहली पसंद
                                 <br />
-                                eat ice cream{" "}
+                                {/* eat ice cream{" "} */}
                               </h3>
                               <p className="fs-5">
-                                Enjoy a scoop of
+                                ज्योति रिवोल्यूशन के मसालों <br />से हर निवाला बने यादगार।
                                 <br />
-                                summer today
+                                {/* summer today */}
                               </p>
-                              <Link to="#" className="btn btn-dark">
-                                Shop Now
+                              <Link to="/AboutUs" className="btn btn-dark">
+                                👉अधिक जानें
                               </Link>
                             </div>
                           </div>
@@ -484,7 +464,7 @@ const Home = () => {
                             className="h3style"
                             data-title="Shop Popular Categories"
                           >
-                            Shop Popular Categories
+                            Shop Popular Masaale
                           </h3>
                           <div className="wt-separator bg-primarys"></div>
                           <div className="wt-separator2 bg-primarys"></div>
@@ -510,7 +490,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Dairy, Bread &amp; Eggs
+                                  कश्मीरी लाल मिर्च
                                 </Link>
                               </h5>
                             </div>
@@ -534,7 +514,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Fruits &amp; Vegetables
+                                  हल्दी पाउडर
                                 </Link>
                               </h5>
                             </div>
@@ -558,7 +538,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Snack &amp; Munchies
+                                  लाल मिर्च पाउडर
                                 </Link>
                               </h5>
                             </div>
@@ -582,7 +562,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Bakery &amp; Biscuits
+                                  धनिया पाउडर
                                 </Link>
                               </h5>
                             </div>
@@ -606,7 +586,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Instant Food
+                                  जीरा पाउडर
                                 </Link>
                               </h5>
                             </div>
@@ -629,7 +609,7 @@ const Home = () => {
                             <div className="mt-4">
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Tea, Coffee &amp; Drinks
+                                  साबुत जीरा
                                 </Link>
                               </h5>
                             </div>
@@ -652,7 +632,7 @@ const Home = () => {
                             <div className="mt-4">
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Cold Drinks &amp; Juices
+                                  काली मिर्च
                                 </Link>
                               </h5>
                             </div>
@@ -675,7 +655,7 @@ const Home = () => {
                             <div className="mt-4">
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Chicken, Meat &amp; Fish
+                                  गरम मसाला
                                 </Link>
                               </h5>
                             </div>
@@ -700,7 +680,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Baby Care
+                                  छोले मसाला
                                 </Link>
                               </h5>
                             </div>
@@ -724,7 +704,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Cleaning Essentials
+                                  चिकन टिक्का मसाला
                                 </Link>
                               </h5>
                             </div>
@@ -748,7 +728,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Pet Care
+                                  बटर चिकन मसाला 
                                 </Link>
                               </h5>
                             </div>
@@ -771,7 +751,7 @@ const Home = () => {
                             <div className="mt-4">
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Atta, Rice &amp; Dal
+                                  सब्ज़ी मसाला
                                 </Link>
                               </h5>
                             </div>
@@ -801,13 +781,13 @@ const Home = () => {
                           >
                             <div>
                               <h3 className="fw-bold mb-1">
-                                Fruits &amp; Vegetables
+                                👑 प्रीमियम मसाला रेंज
                               </h3>
                               <p className="mb-4">
-                                Get Upto <span className="fw-bold">30%</span>{" "}
-                                Off
+                                शाही गरम मसाला • मीट मसाला • चिकन मसाला <span className="fw-bold"></span>{" "}
+                                
                               </p>
-                              <Link to="#!" className="btn btn-dark">
+                              <Link to="/shop" className="btn btn-dark">
                                 Shop Now
                               </Link>
                             </div>
@@ -828,13 +808,13 @@ const Home = () => {
                           >
                             <div>
                               <h3 className="fw-bold mb-1">
-                                Freshly Baked Buns
+                                ✨ स्पेशल मसाला कलेक्शन
                               </h3>
                               <p className="mb-4">
-                                Get Upto <span className="fw-bold">25%</span>{" "}
-                                Off
+                                बिरयानी मसाला • पनीर मसाला • चाट मसाला<span className="fw-bold"></span>{" "}
+                                
                               </p>
-                              <Link to="#!" className="btn btn-dark">
+                              <Link to="/shop" className="btn btn-dark">
                                 Shop Now
                               </Link>
                             </div>
@@ -855,115 +835,13 @@ const Home = () => {
                 <div
                   className="container"
                   style={{
-                    background: `url(${map})no-repeat`,
+                    background: `url(Rs {m0ap})no-repeat`,
                     backgroundSize: "cover",
                   }}
                 >
                   {/* <hr className="my-lg-14 my-8"> */}
                   {/* row */}
-                  <div className="row align-items-center text-center justify-content-center">
-                    <div className=" col-lg-6 col-md-6 fade-in-left">
-                      <Slide direction="left">
-                        <div className="mb-6">
-                          <div className="mb-7">
-                            {/* heading */}
-                            <h1>Get the FreshCart app</h1>
-                            <h5 className="mb-0">
-                              We will send you a link, open it on your phone to
-                              download the app.
-                            </h5>
-                          </div>
-                          <div className="mb-5">
-                            {/* form check */}
-                            <div className="form-check form-check-inline">
-                              <input
-                                className="form-check-input"
-                                type="radio"
-                                name="flexRadioDefault"
-                                id="flexRadioDefault1"
-                              />
-                              <label
-                                className="form-check-label"
-                                htmlFor="flexRadioDefault1"
-                              >
-                                Email
-                              </label>
-                            </div>
-                            {/* form check */}
-                            <div className="form-check form-check-inline">
-                              <input
-                                className="form-check-input"
-                                type="radio"
-                                name="flexRadioDefault"
-                                id="flexRadioDefault2"
-                                defaultChecked
-                              />
-                              <label
-                                className="form-check-label"
-                                htmlFor="flexRadioDefault2"
-                              >
-                                Phone
-                              </label>
-                            </div>
-                            {/* form */}
-                            {/* <form className="row g-3 mt-2">
-
-          
-          <div className="col-6 ">
-            
-            <input type="text" className="form-control" placeholder="Phone">
-          </div>
-           
-          <div className="col-6">
-            <button type="submit" className="btn btn-primary mb-3">Share app link</button>
-          </div>
-        </form> */}
-                          </div>
-                          <div>
-                            {/* app */}
-                            {/* <small>Download app from</small> */}
-                            <ul className="list-inline mb-0 mt-2 ">
-                              {/* list item */}
-                              <li className="list-inline-item">
-                                {/* img */}
-                                <Link to="#!">
-                                  {" "}
-                                  <img
-                                    src={appstore}
-                                    alt="appstore"
-                                    style={{ width: 140 }}
-                                  />
-                                </Link>
-                              </li>
-                              <li className="list-inline-item">
-                                {/* img */}
-                                <Link to="#!">
-                                  {" "}
-                                  <img
-                                    src={googleplay}
-                                    alt="googleplay"
-                                    style={{ width: 140 }}
-                                  />
-                                </Link>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </Slide>
-                    </div>
-                    <div className=" offset-lg-2 col-lg-4 col-md-6 fade-zoom">
-                      <Slide direction="right">
-                        <div className="text-lg-start">
-                          {/* img */}
-                          <img
-                            src={iphone}
-                            alt="iphone"
-                            className=" img-fluid"
-                          />
-                        </div>
-                      </Slide>
-                    </div>
-                  </div>
+                  
                   {/* <hr className="my-lg-14 my-8"> */}
                 </div>
               </section>
@@ -975,7 +853,7 @@ const Home = () => {
                     <div className="col-md-12 mb-6">
                       <div className="section-head text-center mt-8">
                         <h3 className="h3style" data-title="Daily Best Sells">
-                          Daily Best Sells
+                          Daily Offline Best Sells
                         </h3>
                         <div className="wt-separator bg-primarys"></div>
                         <div className="wt-separator2 bg-primarys"></div>
@@ -986,22 +864,23 @@ const Home = () => {
                   <div className="row row-cols-1 row-cols-md-3 g-4">
                     <div className="col-md-3 fade-in-left">
                       <div
-                        className=" pt-8 px-8 rounded-3"
+                        className="pt-8 px-8 rounded-3"
                         style={{
-                          background: `url(${bannerdeal})no-repeat`,
+                          background: `url(${bannerdeal}) no-repeat`,
                           backgroundSize: "cover",
+                          backgroundPosition: "center",
                           height: 400,
                         }}
                       >
                         <div>
                           <h3 className="fw-bold text-white">
-                            100% Organic Coffee Beans.
+                            100% शुद्ध भारतीय मसाले
                           </h3>
                           <p className="text-white">
-                            Get the best deal before close.
+                            ज्योति रिवोल्यूशन फूड इंडस्ट्री के भरोसेमंद मसाले।
                           </p>
-                          <Link to="#!" className="btn btn-primary">
-                            Shop Now{" "}
+                          <Link to="/shop" className="btn btn-primary">
+                            👉अभी देखें{" "}
                             <i className="feather-icon icon-arrow-right ms-1" />
                           </Link>
                         </div>
@@ -1062,7 +941,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-decoration-none text-muted"
                                     >
-                                      <small>Fruits &amp; Vegetables</small>
+                                      <small>पिसे हुए मसाले🌶️</small>
                                     </Link>
                                   </div>
                                   <h2 className="fs-6">
@@ -1070,14 +949,14 @@ const Home = () => {
                                       to="#!"
                                       className="text-inherit text-decoration-none"
                                     >
-                                      Golden Pineapple
+                                      लाल मिर्च पाउडर (प्रीमियम)
                                     </Link>
                                   </h2>
                                   <div className="d-flex justify-content-between align-items-center mt-3">
                                     <div>
-                                      <span className="text-dark">$13</span>{" "}
+                                      <span className="text-dark">Rs 199</span>{" "}
                                       <span className="text-decoration-line-through text-muted">
-                                        $18
+                                        Rs 249
                                       </span>
                                     </div>
                                     <div>
@@ -1111,7 +990,7 @@ const Home = () => {
                                         <line x1={12} y1={5} x2={12} y2={19} />
                                         <line x1={5} y1={12} x2={19} y2={12} />
                                       </svg>{" "}
-                                      Add to cart{" "}
+                                      कार्ट में जोड़ें🛒{" "}
                                     </Link>
                                   </div>
                                   <div className="d-flex justify-content-start text-center mt-3">
@@ -1176,7 +1055,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-decoration-none text-muted"
                                     >
-                                      <small>Fruits &amp; Vegetables</small>
+                                      <small>पिसे हुए मसाले🌶️</small>
                                     </Link>
                                   </div>
                                   <h2 className="fs-6">
@@ -1184,14 +1063,14 @@ const Home = () => {
                                       to="#!"
                                       className="text-inherit text-decoration-none"
                                     >
-                                      Golden Pineapple
+                                      हल्दी पाउडर (प्रीमियम)
                                     </Link>
                                   </h2>
                                   <div className="d-flex justify-content-between align-items-center mt-3">
                                     <div>
-                                      <span className="text-dark">$13</span>{" "}
+                                      <span className="text-dark">Rs 90</span>{" "}
                                       <span className="text-decoration-line-through text-muted">
-                                        $18
+                                        Rs 110
                                       </span>
                                     </div>
                                     <div>
@@ -1225,7 +1104,7 @@ const Home = () => {
                                         <line x1={12} y1={5} x2={12} y2={19} />
                                         <line x1={5} y1={12} x2={19} y2={12} />
                                       </svg>{" "}
-                                      Add to cart{" "}
+                                      कार्ट में जोड़ें🛒{" "}
                                     </Link>
                                   </div>
                                   <div className="d-flex justify-content-start text-center mt-3">
@@ -1290,7 +1169,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-decoration-none text-muted"
                                     >
-                                      <small>Fruits &amp; Vegetables</small>
+                                      <small>पिसे हुए मसाले🌶️</small>
                                     </Link>
                                   </div>
                                   <h2 className="fs-6">
@@ -1298,14 +1177,14 @@ const Home = () => {
                                       to="#!"
                                       className="text-inherit text-decoration-none"
                                     >
-                                      Golden Pineapple
+                                      धनिया पाउडर (प्रीमियम)
                                     </Link>
                                   </h2>
                                   <div className="d-flex justify-content-between align-items-center mt-3">
                                     <div>
-                                      <span className="text-dark">$13</span>{" "}
+                                      <span className="text-dark">Rs 95</span>{" "}
                                       <span className="text-decoration-line-through text-muted">
-                                        $18
+                                        Rs 120
                                       </span>
                                     </div>
                                     <div>
@@ -1339,7 +1218,7 @@ const Home = () => {
                                         <line x1={12} y1={5} x2={12} y2={19} />
                                         <line x1={5} y1={12} x2={19} y2={12} />
                                       </svg>{" "}
-                                      Add to cart{" "}
+                                      कार्ट में जोड़ें🛒{" "}
                                     </Link>
                                   </div>
                                   <div className="d-flex justify-content-start text-center mt-3">
@@ -1404,7 +1283,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-decoration-none text-muted"
                                     >
-                                      <small>Fruits &amp; Vegetables</small>
+                                      <small>पिसे हुए मसाले🌶️</small>
                                     </Link>
                                   </div>
                                   <h2 className="fs-6">
@@ -1412,14 +1291,14 @@ const Home = () => {
                                       to="#!"
                                       className="text-inherit text-decoration-none"
                                     >
-                                      Golden Pineapple
+                                      गरम मसाला (प्रीमियम)
                                     </Link>
                                   </h2>
                                   <div className="d-flex justify-content-between align-items-center mt-3">
                                     <div>
-                                      <span className="text-dark">$13</span>{" "}
+                                      <span className="text-dark">Rs 130</span>{" "}
                                       <span className="text-decoration-line-through text-muted">
-                                        $18
+                                        Rs 180
                                       </span>
                                     </div>
                                     <div>
@@ -1453,7 +1332,7 @@ const Home = () => {
                                         <line x1={12} y1={5} x2={12} y2={19} />
                                         <line x1={5} y1={12} x2={19} y2={12} />
                                       </svg>{" "}
-                                      Add to cart{" "}
+                                      🛒 कार्ट में जोड़ें{" "}
                                     </Link>
                                   </div>
                                   <div className="d-flex justify-content-start text-center mt-3">
@@ -1490,12 +1369,11 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="icon-content">
-                              <h3 className="h5 mb-3">Easy Returns</h3>
+                              <h3 className="h5 mb-3">प्राकृतिक खुशबू🌿</h3>
                               <p>
-                                Not satisfied with a product? Return it at the
-                                doorstep &amp; get a refund within hours. No
-                                questions asked
-                                <Link to="#!">policy</Link>.
+                                हर पैक में ताज़गी और प्राकृतिक सुगंध। 
+                              
+                                {/* <Link to="#!">policy</Link>. */}
                               </p>
                             </div>
                           </div>
@@ -1512,11 +1390,9 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="icon-content">
-                              <h3 className="h5 mb-3">Wide Assortment</h3>
+                              <h3 className="h5 mb-3">आधुनिक निर्माण प्रक्रिया🏭</h3>
                               <p>
-                                Choose from 5000+ products across food, personal
-                                care, household, bakery, veg and non-veg &amp;
-                                other categories.
+                                स्वच्छ और आधुनिक तकनीक से तैयार मसाले। 
                               </p>
                             </div>
                           </div>
@@ -1534,12 +1410,11 @@ const Home = () => {
                             </div>
                             <div className="icon-content">
                               <h3 className="h5 mb-3">
-                                Best Prices &amp; Offers
+                                सुरक्षित पैकेजिंग📦
                               </h3>
                               <p>
-                                Cheaper prices than your local supermarket,
-                                great cashback offers to top it off. Get best
-                                pricess &amp; offers.
+                                अपने स्थानीय सुपरमार्केट की तुलना में सस्ती कीमतें,
+                                
                               </p>
                             </div>
                           </div>
@@ -1557,11 +1432,10 @@ const Home = () => {
                             </div>
                             <div className="icon-content">
                               {/* <h4 className="wt-tilte">Reports</h4> */}
-                              <h3 className="h5 mb-3">10 minute grocery now</h3>
+                              <h3 className="h5 mb-3">🤝थोक ऑर्डर उपलब्ध</h3>
                               <p>
-                                Get your order delivered to your doorstep at the
-                                earliest from FreshCart pickup
-                                <p> stores near you.</p>
+                                डीलर, वितरक और रिटेलर्स के लिए विशेष सुविधाएँ।
+                                {/* <p> stores near you.</p> */}
                               </p>
                             </div>
                           </div>
@@ -1577,250 +1451,7 @@ const Home = () => {
             </>
             <>
               <div className="container">
-                <Slider {...settings2}>
-                  {/* <div className="images swiper-slide p-4">
-    <div className="item">
-      <Link to="#" className="text-decoration-none text-inherit">
-        <div className="card card-product mb-4">
-          <div className="card-body text-center py-8">
-            <img src={product6} alt="Grocery Ecommerce Template" className="mb-3 style={{paddingLeft:'40px'}} " />
-            <div>Dairy, Bread &amp; Eggs</div>
-          </div>
-        </div>
-     </Link>
-    </div>
-  </div>
-  <div className="images swiper-slide p-4">
-    <div className="item"> 
-    <Link to="#" className="text-decoration-none text-inherit">
-        <div className="card card-product mb-4">
-          <div className="card-body text-center py-8">
-            <img src={product9} alt="Grocery Ecommerce Template" className="mb-3"style={{paddingLeft:'40px'}} />
-            <div>Snack &amp; Munchies</div>
-          </div>
-        </div>
-     </Link></div>
-  </div>
-  <div className="images swiper-slide p-4">
-    <div className="item">
-       <Link to="#" className="text-decoration-none text-inherit">
-        <div className="card card-product mb-4">
-          <div className="card-body text-center py-8">
-            <img src={product3} alt="Grocery Ecommerce Template" className="mb-3"style={{paddingLeft:'40px'}} />
-            <div>Bakery &amp; Biscuits</div>
-          </div>
-        </div>
-     </Link></div>
-  </div>
-  <div className="images swiper-slide p-4">
-    <div className="item"> 
-    <Link to="#" className="text-decoration-none text-inherit">
-        <div className="card card-product mb-4">
-          <div className="card-body text-center py-8">
-            <img src={product7} alt="Grocery Ecommerce Template " className="mb-3 " style={{paddingLeft:'40px'}} />
-            <div>Instant Food</div>
-          </div>
-        </div>
-     </Link></div>
-  </div>
-  <div className="images swiper-slide p-4">
-    <div className="item"> 
-    <Link to="#" className="text-decoration-none text-inherit">
-        <div className="card card-product mb-4">
-          <div className="card-body text-center py-8">
-            <img src={product10} alt="Grocery Ecommerce Template" className="mb-3"style={{paddingLeft:'40px'}} />
-            <div>Tea, Coffee &amp; Drinks</div>
-          </div>
-        </div>
-     </Link></div>
-  </div>
-  <div className="images swiper-slide p-4">
-    <div className="item">
-      <Link to="#" className="text-decoration-none text-inherit">
-        <div className="card card-product mb-4">
-          <div className="card-body text-center py-8">
-            <img src={product2} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
-            <div>Atta, Rice &amp; Dal</div>
-          </div>
-        </div>
-     </Link></div>
-  </div>
-  <div className="images swiper-slide p-4">
-    <div className="item">
-       <Link to="#" className="text-decoration-none text-inherit">
-        <div className="card card-product mb-4">
-          <div className="card-body text-center py-8">
-            <img src={product1} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
-            <div>Baby Care</div>
-          </div>
-        </div>
-     </Link></div>
-  </div>
-  <div className="images swiper-slide p-4">
-    <div className="item"> 
-    <Link to="#" className="text-decoration-none text-inherit">
-        <div className="card card-product mb-4">
-          <div className="card-body text-center py-8">
-            <img src={product4} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
-            <div>Chicken, Meat &amp; Fish</div>
-          </div>
-        </div>
-     </Link></div>
-  </div>
-  <div className="images swiper-slide p-4">
-    <div className="item"> 
-    <Link to="#" className="text-decoration-none text-inherit">
-        <div className="card card-product mb-4">
-          <div className="card-body text-center py-8">
-            <img src={product5} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
-            <div>Cleaning Essentials</div>
-          </div>
-        </div>
-     </Link></div>
-  </div>
-  <div className="images swiper-slide p-4">
-    <div className="item">
-      <Link to="#" className="text-decoration-none text-inherit">
-        <div className="card card-product mb-4">
-          <div className="card-body text-center py-8">
-            <img src={product8} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
-            <div>Pet Care</div>
-          </div>
-        </div>
-     </Link>
-    </div>
-  </div> */}
-                  <div className="m-1">
-                    <div className="partner-list">
-                      <img
-                        src={product1}
-                        style={{ objectFit: "cover" }}
-                        className="img-fluid "
-                        alt="product"
-                      />
-                      <h6 class="card-title partner">
-                      <div>Baby Care</div>
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="m-1">
-                    <div className="partner-list">
-                      <img
-                        src={product2}
-                        style={{ objectFit: "cover" }}
-                        className="img-fluid"
-                        alt="product"
-                      />
-                       <h6 class="card-title">
-                       <div>Atta, Rice &amp; Dal</div>
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="m-1">
-                    <div className="partner-list">
-                      <img
-                        src={product3}
-                        style={{ objectFit: "cover" }}
-                        className="img-fluid"
-                        alt="product"
-                      />
-                       <h6 class="card-title">
-                       <div>Bakery &amp; Biscuits</div>
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="m-1">
-                    <div className="partner-list">
-                      <img
-                        src={product4}
-                        style={{ objectFit: "cover" }}
-                        className="img-fluid"
-                        alt="product"
-                      />
-                       <h6 class="card-title">
-                       <div>Chicken, Meat &amp; Fish</div>
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="m-1">
-                    <div className="partner-list">
-                      <img
-                        src={product5}
-                        style={{ objectFit: "cover" }}
-                        className="img-fluid"
-                        alt="product"
-                      />
-                       <h6 class="card-title">
-                       <div>Cleaning Essentials</div>
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="m-1">
-                    <div className="partner-list">
-                      <img
-                        src={product6}
-                        style={{ objectFit: "cover" }}
-                        className="img-fluid"
-                        alt="product"
-                      />
-                       <h6 class="card-title">
-                       <div>Dairy, Bread &amp; Eggs</div>
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="m-1">
-                    <div className="partner-list">
-                      <img
-                        src={product7}
-                        style={{ objectFit: "cover" }}
-                        className="img-fluid"
-                        alt="product"
-                      />
-                       <h6 class="card-title">
-                       <div>Instant Food</div>
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="m-1">
-                    <div className="partner-list">
-                      <img
-                        src={product8}
-                        style={{ objectFit: "cover" }}
-                        className="img-fluid"
-                        alt="product"
-                      />
-                       <h6 class="card-title">
-                      <div>Pet Care</div>
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="m-1">
-                    <div className="partner-list">
-                      <img
-                        src={product9}
-                        style={{ objectFit: "cover" }}
-                        className="img-fluid"
-                        alt="product"
-                      />
-                       <h6 class="card-title">
-                       <div>Snack &amp; Munchies</div>
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="m-1">
-                    <div className="partner-list">
-                      <img
-                        src={product10}
-                        style={{ objectFit: "cover" }}
-                        className="img-fluid"
-                        alt="product"
-                      />
-                       <h6 class="card-title">
-                       <div>Tea, Coffee &amp; Drinks</div>
-                      </h6>
-                    </div>
-                  </div>
-                </Slider>
+                {/* code on whatsap 9. 55 */}
               </div>
             </>
 

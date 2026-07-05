@@ -117,13 +117,13 @@ const ShopWishList = () => {
                             <div>
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Organic Banana
+                                  लाल मिर्च
                                 </Link>
                               </h5>
-                              <small>$.98 / lb</small>
+                              <small>250g</small>
                             </div>
                           </td>
-                          <td className="align-middle">$35.00</td>
+                          <td className="align-middle">Rs 110</td>
                           <td className="align-middle">
                             <span className="badge bg-success">In Stock</span>
                           </td>
@@ -175,13 +175,13 @@ const ShopWishList = () => {
                             <div>
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Fresh Kiwi
+                                  हल्दी
                                 </Link>
                               </h5>
-                              <small>4 no</small>
+                              <small>250g</small>
                             </div>
                           </td>
-                          <td className="align-middle">$20.97</td>
+                          <td className="align-middle">Rs 110</td>
                           <td className="align-middle">
                             <span className="badge bg-danger">
                               Out of Stock
@@ -235,13 +235,13 @@ const ShopWishList = () => {
                             <div>
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Golden Pineapple
+                                  धनिया पाउडर
                                 </Link>
                               </h5>
-                              <small>2 no</small>
+                              <small>250g</small>
                             </div>
                           </td>
-                          <td className="align-middle">$35.00</td>
+                          <td className="align-middle">Rs 110</td>
                           <td className="align-middle">
                             <span className="badge bg-success">In Stock</span>
                           </td>
@@ -293,13 +293,13 @@ const ShopWishList = () => {
                             <div>
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  BeatRoot
+                                  जीरा पाउडर
                                 </Link>
                               </h5>
                               <small>1 kg</small>
                             </div>
                           </td>
-                          <td className="align-middle">$29.00</td>
+                          <td className="align-middle">Rs 110</td>
                           <td className="align-middle">
                             <span className="badge bg-success">In Stock</span>
                           </td>
@@ -351,13 +351,13 @@ const ShopWishList = () => {
                             <div>
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Fresh Apple
+                                  काली मिर्च पाउडर
                                 </Link>
                               </h5>
                               <small>2 kg</small>
                             </div>
                           </td>
-                          <td className="align-middle">$70.00</td>
+                          <td className="align-middle">Rs 110.00</td>
                           <td className="align-middle">
                             <span className="badge bg-success">In Stock</span>
                           </td>

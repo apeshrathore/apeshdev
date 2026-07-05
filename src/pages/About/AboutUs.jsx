@@ -80,15 +80,17 @@ const AboutUs = () => {
 
                       {/* Text */}
                       <Slide direction="down">
-                      <h1 className="pb-2 pb-md-3">About Fresh Cart</h1>
-                      <h3 className="pb-2 pb-md-3">The Future of Grocery Delivery:</h3>
+                      <h1 className="pb-2 pb-md-3" >About <strong style={{ color: "Navy" }}>Jyoti Revolution Food Industry</strong></h1>
+                      <h1 className="pb-2 pb-md-3" >Founder & CEO: <strong style={{ color: "Navy" }}>Ramesh Kumar</strong></h1>
+                      
+                      <h3 className="pb-2 pb-md-3" style={{ color: "red" }}>शुद्धता का भरोसा, स्वाद की पहचान</h3>
                       <p
                         className="fs-xl pb-4 mb-1 mb-md-2 mb-lg-3"
                         style={{ maxWidth: 526 }}
                       >
-                  By powering the future of grocery with our retail partners, 
-                  we give everyone access to the food they love and more time 
-                  to enjoy it together.
+                        Jyoti Revolution Food Industry में हम उच्च गुणवत्ता वाले मसालों का निर्माण करते हैं, 
+                        जो हर व्यंजन में प्राकृतिक खुशबू, बेहतरीन स्वाद और शुद्धता का अनुभव देते हैं। 
+                        आधुनिक निर्माण प्रक्रिया और गुणवत्ता मानकों के साथ तैयार हमारे मसाले हर रसोई की पहली पसंद बनने का लक्ष्य रखते हैं।
                       </p>
                       <img
                         src={clutch}
@@ -102,23 +104,23 @@ const AboutUs = () => {
                         width={175}
                         alt="Clutch"
                       />
-                      <div className="row row-cols-3 pt-4 pt-md-5 mt-2 mt-xl-4">
+                      <div className="row row-cols-3 pt-4 pt-md-5 mt-2 mt-xl-4"style={{ color: " #be123c" }}>
                         <div className="col">
-                          <h3 className="h2 mb-2">2,480</h3>
+                          <h3 className="h2 mb-2">150+</h3>
                           <p className="mb-0">
-                            <strong>Remote</strong> Sales Experts
+                            <strong>Retail Partners</strong>
                           </p>
                         </div>
                         <div className="col">
-                          <h3 className="h2 mb-2">760</h3>
+                          <h3 className="h2 mb-2">25+</h3>
                           <p className="mb-0">
-                            <strong>New Clients</strong> per Month
+                            <strong>Premium </strong>Spice Products
                           </p>
                         </div>
                         <div className="col">
-                          <h3 className="h2 mb-2">1,200</h3>
+                          <h3 className="h2 mb-2">1,200+</h3>
                           <p className="mb-0">
-                            <strong>Requests</strong> per Week
+                            <strong>Happy Customers</strong>
                           </p>
                         </div>
                       </div>
@@ -129,6 +131,7 @@ const AboutUs = () => {
                       <div className="row row-cols-2 gx-3 gx-lg-4">
                         <div className="col pt-lg-5 mt-lg-1">
                           <Zoom>
+                            
                           <img
                             src={member1}
                             className="d-block rounded-3 mb-3 mb-lg-4"
@@ -186,10 +189,9 @@ const AboutUs = () => {
                         />
                         </Zoom>
                         <Slide direction="up">
-                        <h4 className="mb-2 pb-1">Creative Solutions</h4>
+                        <h4 className="mb-2 pb-1">🌶️ 100% शुद्धता</h4>
                         <p className="mx-auto" style={{ maxWidth: "336px" }}>
-                          Sed morbi nulla pulvinar lectus tempor vel euismod
-                          accumsan.
+                          हर पैक में बेहतरीन गुणवत्ता और प्राकृतिक स्वाद।
                         </p>
                         </Slide>
                       </div>
@@ -205,10 +207,9 @@ const AboutUs = () => {
                         />
                         </Zoom>
                         <Slide direction="up">
-                        <h4 className="mb-2 pb-1">Award Winning</h4>
+                        <h4 className="mb-2 pb-1">🏆 गुणवत्ता की गारंटी</h4>
                         <p className="mx-auto" style={{ maxWidth: "336px" }}>
-                          Sit facilisis dolor arcu, fermentum vestibulum arcu
-                          elementum imperdiet.
+                          आधुनिक निर्माण प्रक्रिया और सख्त गुणवत्ता नियंत्रण।
                         </p>
                         </Slide>
                       </div>
@@ -224,10 +225,9 @@ const AboutUs = () => {
                         />
                         </Zoom>
                         <Slide direction="up">
-                        <h4 className="mb-2 pb-1">Team of Professionals</h4>
+                        <h4 className="mb-2 pb-1">🤝 ग्राहक का भरोसा</h4>
                         <p className="mx-auto" style={{ maxWidth: "336px" }}>
-                          Nam venenatis urna aenean quis feugiat et senectus
-                          turpis.
+                          डीलर, वितरक और रिटेलर्स के लिए विशेष ऑफ़र और आकर्षक कीमतें।
                         </p>
                         </Slide>
                       </div>
@@ -262,7 +262,7 @@ const AboutUs = () => {
               {/* Gallery */}
               <section className="container pb-5 mb-2 mb-md-4 mb-lg-5 mt-8">
                 <div className="d-flex align-items-center justify-content-between pb-4 mb-2">
-                  <h2 className="h1 mb-0">We are Powerful</h2>
+                  <h2 className="h1 mb-0">हमारी झलकियाँ</h2>
                   <Link to="#" className="btn btn-outline-primary btn-lg">
                     <i className="bx bx-images fs-4 lh-1 me-2" />
                     See all photos
@@ -273,20 +273,22 @@ const AboutUs = () => {
                   data-video="true"
                   data-thumbnails="true"
                 >
-                  <div className="col-md-5">
+                  <div className="col-md-4">
                     <a
-                      href="https://www.youtube.com/watch?v=zPo5ZaH6sW8"
+                      href="https://www.instagram.com/p/DY926fEot2Y/"
                       className="gallery-item video-item is-hovered rounded-3"
-                      data-sub-html='<h6 class="fs-sm text-light">Silicon Inc. Showreel by Marvin McKinney</h6>'
+                      data-sub-html='<h6 class="fs-sm text-light">Jyoti Revolution Food Industry</h6>'
                     >
                       <img src={member8} alt="Gallery thumbnail" />
-                      <div className="gallery-item-caption p-4">
-                        <h4 className="text-light mb-1">Fresh Cart Inc.</h4>
-                        <p className="mb-0">Showreel by Marvin McKinney</p>
+                      <div className="gallery-item-caption p-3">
+                        <h4 className="text-blue mb-1" style={{ color: "yellow" }}>
+                          Jyoti Revolution Food Industry
+                        </h4>
+                        <p className="mb-0" style={{ color: "yellow" }}>by Ramesh Kumar</p>
                       </div>
                     </a>
                   </div>
-                  <div className="col-md-3 col-sm-5">
+                  <div className="col-md-3 col-sm-4">
                     <a
                       href={member2}
                       className="gallery-item rounded-3 mb-4"

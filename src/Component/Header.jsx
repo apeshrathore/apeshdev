@@ -25,7 +25,7 @@ const Header = () => {
             <div className="container">
               <div className="row">
                 <div className="col-md-10 col-12 d-flex " style={{ alignItems: 'center' }}>
-                  <span> Super Value Deals - Save more with coupons</span>
+                  <span> ✨100% शुद्ध मसाले | प्रीमियम गुणवत्ता | उचित मूल्य</span>
                 </div>
                 <div className="col-md-2 col-xxl-1 text-end d-none d-lg-block" style={{ marginLeft: '20px' }}>
                   <div className="list-inline">
@@ -233,14 +233,14 @@ const Header = () => {
               alt="eCommerce HTML Template"
             />
           </Link>
-          <input
+          {/* <input
             className="form-control responsivesearch "
             list="datalistOptions"
             id="exampleDataList"
             placeholder="Type to search..."
             fdprocessedid="9icrif"
             style={{ width: "35%" }}
-          />
+          /> */}
 
           <button
             className="navbar-toggler"
@@ -291,32 +291,32 @@ const Header = () => {
                     <rect x="3" y="14" width="7" height="7"></rect>
                   </svg>
                 </span>{" "}
-                All Departments
+                All Mashale
               </Link>
               <div
                 className="dropdown-menu sm-menu"
                 aria-labelledby="navbarDropdown"
               >
                 <Link className="dropdown-item" to="/Shop">
-                  Dairy, Bread &amp; Eggs
+                लाल मिर्च पाउडर
                 </Link>
                 <Link className="dropdown-item" to="/Shop">
-                  Snacks &amp; Munchies
+                हल्दी पाउडर 
                 </Link>
                 <Link className="dropdown-item" to="/Shop">
-                  Fruits &amp; Vegetables
+                  धनिया पाउडर
                 </Link>
                 <Link className="dropdown-item" to="/Shop">
-                  Cold Drinks &amp; Juices
+                  जीरा &amp; जीरा पाउडर
                 </Link>
                 <Link className="dropdown-item" to="/Shop">
-                  Breakfast &amp; Instant Food
+                  साबुत धनिया
                 </Link>
                 <Link className="dropdown-item" to="/Shop">
-                  Bakery &amp; Biscuits
+                  राई / सरसों
                 </Link>
                 <Link className="dropdown-item" to="/Shop">
-                  Chicken, Meat &amp; Fish
+                  काली मिर्च
                 </Link>
               </div>
             </li>
@@ -342,7 +342,7 @@ const Header = () => {
               className="dropdown-menu sm-menu"
               aria-labelledby="navbarDropdown"
             >
-              <Link class="dropdown-item" to="/Blog">
+              {/* <Link class="dropdown-item" to="/Blog">
                 Blog
               </Link>
               {/* <Link className="dropdown-item" to="pages/blog-single.html">
@@ -364,7 +364,7 @@ const Header = () => {
           </li>
 
           <li className="nav-item dmenu dropdown">
-            <Link
+            {/* <Link
               className="nav-link dropdown-toggle"
               to="#"
               id="navbarDropdown"
@@ -374,7 +374,7 @@ const Header = () => {
               aria-expanded="false"
             >
               Shop
-            </Link>
+            </Link> */}
             <div
               className="dropdown-menu sm-menu"
               aria-labelledby="navbarDropdown"
@@ -482,99 +482,99 @@ const Header = () => {
                 <div className="col-sm-6 col-lg-3 border-right mb-4">
                   <div>
                     <h6 className="text-primary ps-3">
-                      Dairy, Bread &amp; Eggs
+                      प्रमुख मसाले
                     </h6>
                     <Link className="dropdown-item" to="/Shop">
-                      Butter
+                      हल्दी पाउडर
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Milk Drinks
+                      लाल मिर्च पाउडर
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Curd &amp; Yogurt
+                      धनिया पाउडर
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Eggs
+                      जीरा &amp; जीरा पाउडर
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Buns &amp; Bakery
+                      साबुत धनिया
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Cheese
+                      राई / सरसों
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Condensed Milk
+                      काली मिर्च
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Dairy Products
+                      किचन किंग मसाला
                     </Link>
                   </div>
                 </div>
                 <div className="col-sm-6 col-lg-3 border-right mb-4">
                   <div>
                     <h6 className="text-primary ps-3">
-                      Breakfast &amp; Instant Food
+                      ब्लोकप्रिय ब्लेंड मसाले
                     </h6>
                     <Link className="dropdown-item" to="/Shop">
-                      Breakfast Cereal
+                      दम आलू मसाला
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
                       {" "}
-                      Noodles, Pasta &amp; Soup
+                      दम मटन मसाला
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Frozen Veg Snacks
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      {" "}
-                      Frozen Non-Veg Snacks
+                      एग करी मसाला
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
                       {" "}
-                      Vermicelli
+                      पनीर मसाला
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
                       {" "}
-                      Instant Mixes
+                      पाव भाजी मसाला
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
                       {" "}
-                      Batter
+                      पनीर बटर मसाला
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
                       {" "}
-                      Fruit and Juices
+                      राजमा मसाला
+                    </Link>
+                    <Link className="dropdown-item" to="/Shop">
+                      {" "}
+                      छोले मसाला
                     </Link>
                   </div>
                 </div>
                 <div className="col-sm-6 col-lg-3 mb-4">
                   <div>
                     <h6 className="text-primary ps-3">
-                      Cold Drinks &amp; Juices
+                      प्रीमियम और यूनिक मसाले
                     </h6>
                     <Link className="dropdown-item" to="/Shop">
-                      Soft Drinks
+                      केसर
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Fruit Juices
+                      जायफल
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Coldpress
+                      बड़ी इलायची
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Water &amp; Ice Cubes
+                      छोटी इलायची
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Soda &amp; Mixers
+                      लौंग
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Health Drinks
+                      दालचीनी
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Herbal Drinks
+                      काली इलायची
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Milk Drinks
+                      काली मिर्च
                     </Link>
                   </div>
                 </div>
@@ -774,7 +774,7 @@ const Header = () => {
         </div>
         <div className="offcanvas-body">
           <div className="alert alert-danger" role="alert">
-            You’ve got FREE delivery. Start checkout now!
+            You’ve got More Discount On Bulk Purchase. Start checkout now!
           </div>
           <div>
             <div className="py-3">
@@ -789,9 +789,9 @@ const Header = () => {
                       />
                     </div>
                     <div className="col-5">
-                      <h6 className="mb-0">Organic Banana</h6>
+                      <h6 className="mb-0">लाल मिर्च</h6>
                       <span>
-                        <small className="text-muted">.98 / lb</small>
+                        <small className="text-muted">500g</small>
                       </span>
                       <div className="mt-2 small">
                         {" "}
@@ -845,7 +845,7 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="col-2 text-end">
-                      <span className="fw-bold">$35.00</span>
+                      <span className="fw-bold">Rs 350</span>
                     </div>
                   </div>
                 </li>
@@ -859,7 +859,7 @@ const Header = () => {
                       />
                     </div>
                     <div className="col-5">
-                      <h6 className="mb-0">Fresh Garlic, 250g</h6>
+                      <h6 className="mb-0">हल्दी</h6>
                       <span>
                         <small className="text-muted">250g</small>
                       </span>
@@ -915,9 +915,9 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="col-2 text-end">
-                      <span className="fw-bold">$20.97</span>
+                      <span className="fw-bold">Rs 200</span>
                       <span className="text-decoration-line-through text-muted small">
-                        $26.97
+                        
                       </span>
                     </div>
                   </div>
@@ -932,7 +932,7 @@ const Header = () => {
                       />
                     </div>
                     <div className="col-5">
-                      <h6 className="mb-0">Fresh Onion, 1kg</h6>
+                      <h6 className="mb-0">काली मिर्च, 1kg</h6>
                       <span>
                         <small className="text-muted">1 kg</small>
                       </span>
@@ -988,9 +988,9 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="col-2 text-end">
-                      <span className="fw-bold">$25.00</span>
+                      <span className="fw-bold">Rs 250</span>
                       <span className="text-decoration-line-through text-muted small">
-                        $45.00
+                        {/* $45.00 */}
                       </span>
                     </div>
                   </div>
@@ -1005,7 +1005,7 @@ const Header = () => {
                       />
                     </div>
                     <div className="col-5">
-                      <h6 className="mb-0">Fresh Ginger</h6>
+                      <h6 className="mb-0">धनिया</h6>
                       <span>
                         <small className="text-muted">250g</small>
                       </span>
@@ -1061,9 +1061,9 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="col-2 text-end">
-                      <span className="fw-bold">$39.87</span>
+                      <span className="fw-bold">Rs 398</span>
                       <span className="text-decoration-line-through text-muted small">
-                        $45.00
+                        {/* $45.00 */}
                       </span>
                     </div>
                   </div>
@@ -1079,7 +1079,7 @@ const Header = () => {
                     </div>
                     <div className="col-5">
                       <h6 className="mb-0">
-                        Apple Royal Gala, 4 Pieces Box
+                        जीरा
                       </h6>
                       <span>
                         <small className="text-muted">4 Apple</small>
@@ -1136,9 +1136,9 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="col-2 text-end">
-                      <span className="fw-bold">$39.87</span>
+                      <span className="fw-bold">Rs 398</span>
                       <span className="text-decoration-line-through text-muted small">
-                        $45.00
+                        {/* $45.00 */}
                       </span>
                     </div>
                   </div>
@@ -1151,7 +1151,7 @@ const Header = () => {
                 type="submit"
               >
                 {" "}
-                Go to Checkout <span className="fw-bold">$120.00</span>
+                Go to Checkout <span className="fw-bold">Rs 1596</span>
               </button>
             </div>
           </div>

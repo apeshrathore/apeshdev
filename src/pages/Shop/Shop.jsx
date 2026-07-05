@@ -321,22 +321,22 @@ color="#0aad0a"
             <div className="py-4">
               {/* Banner Design */}
               {/* Banner Content */}
-              <div className="position-absolute p-5 py-8">
+              {/* <div className="position-absolute p-5 py-8">
                 <h3 className="mb-0">Fresh Fruits </h3>
                 <p>Get Upto 25% Off</p>
                 <Link to="#" className="btn btn-dark">
                   Shop Now
                   <i className="feather-icon icon-arrow-right ms-1" />
                 </Link>
-              </div>
+              </div> */}
               {/* Banner Content */}
               {/* Banner Image */}
               {/* img */}
-              <img
+              {/* <img
                 src={assortment}
                 alt="assortment"
                 className="img-fluid rounded-3"
-              />
+              /> */}
               {/* Banner Image */}
             </div>
             {/* Banner Design */}
@@ -348,7 +348,7 @@ color="#0aad0a"
           <div className="card mb-4 bg-light border-0">
             {/* card body */}
             <div className=" card-body p-9">
-              <h1 className="mb-0">Snacks &amp; Munchies</h1>
+              <h1 className="mb-0">All Products</h1>
             </div>
           </div>
           {/* list icon */}
@@ -455,12 +455,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Snack &amp; Munchies</small>
+                      <small>Ground Spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      Haldiram's Sev Bhujia
+                      लाल मिर्च
                     </Link>
                   </h2>
                   <div>
@@ -478,9 +478,9 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$18</span>{" "}
+                      <span className="text-dark">Rs 299</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $24
+                        Rs 399
                       </span>
                     </div>
                     {/* btn */}
@@ -564,12 +564,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Bakery &amp; Biscuits</small>
+                      <small>Ground Spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      NutriChoice Digestive{" "}
+                      हल्दी {" "}
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -587,7 +587,7 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$24</span>
+                      <span className="text-dark">Rs 299</span>
                     </div>
                     {/* btn */}
                     <div>
@@ -666,12 +666,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Bakery &amp; Biscuits</small>
+                      <small>Ground Spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      Cadbury 5 Star Chocolate
+                      धनिया
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -689,9 +689,9 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$32</span>{" "}
+                      <span className="text-dark">Rs 299</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $35
+                        Rs 399
                       </span>
                     </div>
                     {/* btn */}
@@ -775,12 +775,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Snack &amp; Munchies</small>
+                      <small>Ground Spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      Onion Flavour Potato
+                      काली मिर्च
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -798,9 +798,9 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$3</span>{" "}
+                      <span className="text-dark">Rs 299</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $5
+                        Rs 399
                       </span>
                     </div>
                     {/* btn */}
@@ -880,12 +880,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Instant Food</small>
+                      <small>Whole Spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      Salted Instant Popcorn{" "}
+                      गरम मसाला{" "}
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -902,9 +902,9 @@ color="#0aad0a"
                   </div>
                   <div className="d-flex justify-content-between mt-4">
                     <div>
-                      <span className="text-dark">$13</span>{" "}
+                      <span className="text-dark">Rs 299</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $18
+                        Rs 399
                       </span>
                     </div>
                     {/* btn */}
@@ -988,12 +988,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Dairy, Bread &amp; Eggs</small>
+                      <small>Whole Spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      Blueberry Greek Yogurt
+                      किचन किंग मसाला
                     </Link>
                   </h2>
                   <div>
@@ -1011,9 +1011,9 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$18</span>{" "}
+                      <span className="text-dark">Rs 299</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $24
+                        Rs 399
                       </span>
                     </div>
                     {/* btn */}
@@ -1093,12 +1093,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Dairy, Bread &amp; Eggs</small>
+                      <small>Premium Spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      Britannia Cheese Slices
+                      मटन मसाला
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -1116,7 +1116,7 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$24</span>
+                      <span className="text-dark">Rs 299</span>
                     </div>
                     {/* btn */}
                     <div>
@@ -1195,12 +1195,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Instant Food</small>
+                      <small>Blended Spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      Kellogg's Original Cereals
+                      पनीर मसाला
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -1218,9 +1218,9 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$32</span>{" "}
+                      <span className="text-dark">Rs 299</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $35
+                        Rs 399
                       </span>
                     </div>
                     {/* btn */}
@@ -1300,12 +1300,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Snack &amp; Munchies</small>
+                      <small>Premium Ingredients</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      Slurrp Millet Chocolate{" "}
+                      तंदूरी मसाला{" "}
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -1323,9 +1323,9 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$3</span>{" "}
+                      <span className="text-dark">Rs 299</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $5
+                        Rs 399
                       </span>
                     </div>
                     {/* btn */}
@@ -1405,12 +1405,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Dairy, Bread &amp; Eggs</small>
+                      <small>Premium Ingredients</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      Amul Butter - 500 g
+                      तेज पत्ता
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -1427,9 +1427,9 @@ color="#0aad0a"
                   </div>
                   <div className="d-flex justify-content-between mt-4">
                     <div>
-                      <span className="text-dark">$13</span>{" "}
+                      <span className="text-dark">Rs 299</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $18
+                        Rs 399
                       </span>
                     </div>
                     {/* btn */}
@@ -1516,61 +1516,44 @@ color="#0aad0a"
 
 const dropdownData = [
   {
-    title: "Dairy, Bread & Eggs",
+    title: "Ground Spices",
     items: [
-      "Milk",
-      "Milk Drinks",
-      "Curd & Yogurt",
-      "Eggs",
-      "Bread",
-      "Buns & Bakery",
-      "Butter & More",
-      "Cheese",
-      "Paneer & Tofu",
-      "Cream & Whitener",
-      "Condensed Milk",
-      "Vegan Drinks",
+      "लाल मिर्च",
+      "हल्दी पाउडर",
+      "धनिया पाउडर",
+      
     ],
   },
   {
-    title: "Snacks & Munchies",
+    title: "Whole Spices",
     items: [
-      "Chips & Crisps",
-      "Nachos",
-      "Popcorn",
-      "Bhujia & Mixtures",
-      "Namkeen Snacks",
-      "Healthy Snacks",
-      "Cakes & Rolls",
-      "Energy Bars",
-      "Papad & Fryums",
-      "Rusks & Wafers",
+      "जीरा",
+      "काली मिर्च",
+      "लौंग",
+      "दालचीनी",
+      
     ],
   },
   {
-    title: "Fruits & Vegetables",
+    title: "Premium Spices",
     items: [
-      "Fresh Vegetables",
-      "Herbs & Seasonings",
-      "Fresh Fruits",
-      "Organic Fruits & Vegetables",
-      "Cuts & Sprouts",
-      "Exotic Fruits & Veggies",
-      "Flower Bouquets, Bunches",
+      "इलायची",
+      "हींग",
+      "जायफल",
+      "कलौंजी",
+      "जावित्री",
+      "लौंग",
+      
     ],
   },
   {
-    title: "Cold Drinks & Juices" ,
+    title: "Blended Spices" ,
     items: [
-      "Soft Drinks",
-      "Fruit Juices",
-      "Coldpress",
-      "Energy Drinks",
-      "Water & Ice Cubes",
-      "Soda & Mixers",
-      "Concentrates & Syrups",
-      "Detox & Energy Drinks",
-      "Juice Collection",
+      "बिरयानी मसाला",
+      "मटन मसाला",
+      "चिकन मसाला",
+      "सांभर मसाला",
+      "चाट मसाला",
     ],
   },
 ];

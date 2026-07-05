@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import member1 from "../../images/01.jpg";
-import member2 from '../../images/02.jpg'
-import member3 from "../../images/03.jpg";
+import member1 from "../../images/05.jpg";
+import member2 from '../../images/06.jpg'
+import member3 from "../../images/07.jpg";
 import { Slide } from "react-awesome-reveal";
 
 const Testimonials = () => {
@@ -47,9 +47,9 @@ const Testimonials = () => {
               <div className="section-title-left pt-80">
                 <Slide direction="down" delay={0.3}>
                 <h3 className="party">
-                  Hear Out Our
-                  <br />
-                  Happy Clients!
+                  हमारे ग्राहकों की राय
+                  {/* <br /> */}
+                  {/* देखिए, हमारे ग्राहक क्या कहते हैं! */}
                 </h3>
                 </Slide>
               </div>
@@ -72,14 +72,13 @@ const Testimonials = () => {
                   </div>
                   <div className="inner-test">
                     <p className="text">
-                      "We are delighted by our association with TheJointApps!
-                      They have been really professional and extremely committed
-                      to the most complicated tasks. We wish them all the very
-                      best!"
+                      "मैं पिछले एक साल से ज्योति रिवोल्यूशन के मसाले इस्तेमाल कर रहा हूँ। 
+                      मसालों की खुशबू, शुद्धता और स्वाद वास्तव में बेहतरीन है। 
+                      हर पैक में गुणवत्ता साफ़ दिखाई देती है।!"
                     </p>
                   </div>
                   <div className="author-details mt-3">
-                    <h6>Rabie Elkheir</h6>
+                    <h6>Shivdyal Singh</h6>
                     <span>Our Customer </span>
                   </div>
                 </div>
@@ -97,13 +96,12 @@ const Testimonials = () => {
                   </div>
                   <div className="inner-test">
                     <p className="text">
-                      "TheJointApps has been instrumental in building our web
-                      presence. They put together an amazing website for us -
-                      both aesthetically pleasing and functionally sound."
+                      "हमारी किराना दुकान पर ग्राहकों की पहली पसंद यही मसाले हैं। 
+                      उचित कीमत, बेहतरीन पैकेजिंग ने हमारे व्यापार को आसान बना दिया है।"
                     </p>
                   </div>
                   <div className="author-details mt-3">
-                    <h6>Sara Wander</h6>
+                    <h6>Jagdish</h6>
                     <span>Our Customer</span>
                   </div>
                 </div>
@@ -120,18 +118,18 @@ const Testimonials = () => {
                   </div>
                   <div className="inner-test">
                     <p className="text">
-                      "TheJointApps team was extremely professional and patient
-                      with us throughout the process of developing our mobile
-                      app. We are delighted to have partnered with them."
+                      "हमने अपने रेस्टोरेंट में ज्योति रिवोल्यूशन के मसालों का उपयोग शुरू किया 
+                      और स्वाद में स्पष्ट अंतर महसूस हुआ। गुणवत्ता और फ्लेवर दोनों शानदार हैं।"
                     </p>
                   </div>
                   <div className="author-details mt-3">
-                    <h6>Nour Eldin</h6>
-                    <span>Our Customer</span>
+                    <h6>Savan khedekar</h6>
+                    <span>Our Customer </span>
                   </div>
                 </div>
                 {/* </div> */}
               </div>
+              {/*  */}
 
               {/* Add more testimonial items here */}
             </OwlCarousel>

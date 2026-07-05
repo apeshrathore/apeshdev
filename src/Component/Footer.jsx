@@ -30,13 +30,15 @@ const Footer = () => {
                     </Link>
                   </div>
                   <p className="mb-30">
-                    We deliver more than your expectations and help you to grow
-                    your business exponentially by providing customized
-                    applications. So, don’t just think, get ready to convert
-                    your ideas into reality.
+                    हर चुटकी में शुद्धता, हर व्यंजन में स्वाद।
+                    खुशबू जो जोड़ दे हर रिश्ते को।
+                    हर रसोई की पहली पसंद।
+                    जहाँ शुद्धता मिले बेहतरीन स्वाद से।
+                    मसालों का भरोसा, स्वाद का वादा।
                   </p>
                 </div>
-                <div className="dimc-protect">
+
+                {/* <div className="dimc-protect">
                   <div className="col-lg-5 text-lg-start text-center mb-2 mb-lg-0">
                     <h4>Payment Partners</h4>
                     <ul className="list-inline d-flex mb-0">
@@ -67,11 +69,12 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
+
               </div>
               <div className="col-sm-6 col-lg-3 mb-30">
                 <div className="footer-widget mb-0">
-                  <h4>All Category</h4>
+                  <h4>All Masale</h4>
                   <div className="line-footer" />
                   <div className="row">
                     <div className="col">
@@ -81,7 +84,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Dairy, Bread &amp; Eggs
+                            Turmeric Powder
                           </Link>
                         </li>
                         <li>
@@ -89,7 +92,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Snacks &amp; Munchies
+                            Red Chilli Powder
                           </Link>
                         </li>
                         <li>
@@ -97,7 +100,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Fruits &amp; Vegetables
+                            Coriander Powder
                           </Link>
                         </li>
                         <li>
@@ -105,7 +108,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Cold Drinks &amp; Juices
+                            Garam Masala
                           </Link>
                         </li>
                         <li>
@@ -113,7 +116,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Breakfast &amp; Instant Food
+                            Salt &amp; Sugar
                           </Link>
                         </li>
                         <li>
@@ -121,7 +124,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Bakery &amp; Biscuits
+                              Cumin Powder                          
                           </Link>
                         </li>
                         <li>
@@ -312,10 +315,10 @@ const Footer = () => {
                   © {year} All Rights Reserved By _
                   
                   <Link
-                    to="https://nigammishra.github.io/nigam-portfolio/"
+                    to="https://www.instagram.com/apeshrathore/"
                     target="_blank"
                   >
-                     @nigammishra
+                     @apeshrathore
                   </Link>
                 </div>
               </div>
