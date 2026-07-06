@@ -257,9 +257,48 @@ const Home = () => {
                             <span className="badge text-bg-warning">
                               Where Purity Meets Perfection.
                             </span>
-                            <h2 className="text-dark display-6 fw-bold mt-4">
+
+                            {/* <h2 className="text-dark display-6 fw-bold mt-4">
                               JYOTI REVOLUTION <br /> FOOD INDUSTRY
+                            </h2> */}
+
+                            <h2 className="display-6 fw-bold mt-4">
+                              <span style={{ color: "#2E7D32" }}>JYOTI</span>{" "}
+                              <span style={{ color: "#FF6F00" }}>REVOLUTION</span>
+                              <br />
+                              <span className="text-dark">FOOD INDUSTRY</span>
                             </h2>
+
+                            {/* <h2 className="display-6 fw-bold mt-4">
+                              <span
+                                style={{
+                                  background: "linear-gradient(90deg, #ffb300, #ff6f00)",
+                                  WebkitBackgroundClip: "text",
+                                  WebkitTextFillColor: "transparent",
+                                  fontWeight: "800",
+                                }}
+                              >
+                                JYOTI REVOLUTION
+                              </span>
+                              <br />
+                              <span className="text-dark">FOOD INDUSTRY</span>
+                            </h2> */}
+
+                            {/* <h2 className="display-6 fw-bold mt-4">
+                              <span
+                                style={{
+                                  color: "#d35400",
+                                  textShadow: "2px 2px 8px rgba(0,0,0,0.2)",
+                                  letterSpacing: "1px",
+                                }}
+                              >
+                                JYOTI REVOLUTION
+                              </span>
+                              <br />
+                              <span className="text-dark">FOOD INDUSTRY</span>
+                            </h2> */}
+
+                            
                             <p className="lead" style={{ color: "red" }}>
                               हर चुटकी में शुद्धता, हर घर में स्वाद.
                             </p>
