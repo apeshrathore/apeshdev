@@ -340,7 +340,7 @@ const AboutUs = () => {
                     >
                       <img src={member5} alt="Gallery thumbnail" />
                       <div className="gallery-item-caption fs-sm fw-medium">
-                        Modern bright offices
+                        {/* Modern bright offices */}
                       </div>
                     </a>
                   </div>
