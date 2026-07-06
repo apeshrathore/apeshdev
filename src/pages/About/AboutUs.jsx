@@ -330,7 +330,7 @@ const AboutUs = () => {
                         style={{ height: "310px" }}
                       />
                       <div className="gallery-item-caption fs-sm fw-medium">
-                        Program for apprentices
+                        {/* Program for apprentices */}
                       </div>
                     </a>
                     <a
@@ -356,7 +356,7 @@ const AboutUs = () => {
                         style={{ height: "360px" }}
                       />
                       <div className="gallery-item-caption fs-sm fw-medium">
-                        Friendly professional team
+                        {/* Friendly professional team */}
                       </div>
                     </a>
                     <a
@@ -366,7 +366,7 @@ const AboutUs = () => {
                     >
                       <img src={member7} alt="Gallery thumbnail" />
                       <div className="gallery-item-caption fs-sm fw-medium">
-                        Efficient project management
+                        {/* Efficient project management */}
                       </div>
                     </a>
                   </div>
