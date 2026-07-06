@@ -80,8 +80,38 @@ const AboutUs = () => {
 
                       {/* Text */}
                       <Slide direction="down">
-                      <h1 className="pb-2 pb-md-3" >About <strong style={{ color: "Navy" }}>Jyoti Revolution Food Industry</strong></h1>
-                      <h1 className="pb-2 pb-md-3" >Founder & CEO: <strong style={{ color: "Navy" }}>Ramesh Kumar</strong></h1>
+                      {/* <h1 className="pb-2 pb-md-3" >About <strong style={{ color: "Navy" }}>Jyoti Revolution Food Industry</strong></h1>
+                      <h2 className="pb-2 pb-md-3" >Founder & CEO: <strong style={{ color: "Navy" }}>RAMESH KUMAR RATHOURIYA</strong></h2> */}
+                      <h1 className="pb-2 pb-md-3 fw-bold">
+                        About{" "}
+                        <span
+                          style={{
+                            background: "linear-gradient(90deg,#0f172a,#1d4ed8,#2563eb)",
+                            WebkitBackgroundClip: "text",
+                            WebkitTextFillColor: "transparent",
+                            letterSpacing: "1px",
+                            textShadow: "2px 2px 8px rgba(37,99,235,0.25)"
+                          }}
+                        >
+                          Jyoti Revolution Food Industry
+                        </span>
+                      </h1>
+
+                      <h2 className="pb-2 pb-md-3 fw-bold">
+                        Founder & CEO :{" "}
+                        <span
+                          style={{
+                            background: "linear-gradient(90deg,#b91c1c,#ef4444,#f97316)",
+                            WebkitBackgroundClip: "text",
+                            WebkitTextFillColor: "transparent",
+                            letterSpacing: "1px",
+                            textTransform: "uppercase",
+                            textShadow: "2px 2px 8px rgba(239,68,68,0.25)"
+                          }}
+                        >
+                          RAMESH KUMAR RATHOURIYA
+                        </span>
+                      </h2>
                       
                       <h3 className="pb-2 pb-md-3" style={{ color: "red" }}>शुद्धता का भरोसा, स्वाद की पहचान</h3>
                       <p
@@ -284,7 +314,7 @@ const AboutUs = () => {
                         <h4 className="text-blue mb-1" style={{ color: "yellow" }}>
                           Jyoti Revolution Food Industry
                         </h4>
-                        <p className="mb-0" style={{ color: "yellow" }}>by Ramesh Kumar</p>
+                        <p className="mb-0" style={{ color: "yellow" }}>by Ramesh Kumar Rathouriya</p>
                       </div>
                     </a>
                   </div>
