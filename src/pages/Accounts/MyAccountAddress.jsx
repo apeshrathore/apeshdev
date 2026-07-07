@@ -157,12 +157,12 @@ const MyAccountAddress = () => {
                                 </div>
                                 {/* address */}
                                 <p className="mb-6">
-                                  Jitu Chauhan
+                                  Ramesh Kumar Rathouriya
                                   <br />
-                                  4450 North Avenue Oakland, <br />
-                                  Nebraska, United States,
+                                  Mandideep, District - Raisen, <br />
+                                  ( M.P ), India,
                                   <br />
-                                  402-776-1106
+                                  462046  
                                 </p>
                                 {/* btn */}
                                 <Link to="#" className="btn btn-info btn-sm">
@@ -202,12 +202,12 @@ const MyAccountAddress = () => {
                                 </div>
                                 {/* nav item */}
                                 <p className="mb-6">
-                                  Nitu Chauhan
+                                  Ramesh Kumar Rathouriya
                                   <br />
-                                  3853 Coal Road <br />
-                                  Tannersville, Pennsylvania, 18372, United
-                                  States <br />
-                                  402-776-1106
+                                  Mandideep, District - Raisen, <br />
+                                  ( M.P ), India,
+                                  <br />
+                                  462046  
                                 </p>
                                 {/* link */}
                                 <Link to="#" className="link-primary">

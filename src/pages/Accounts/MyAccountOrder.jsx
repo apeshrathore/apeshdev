@@ -165,7 +165,7 @@ const MyAccountOrder = () => {
                                     className="fw-semi-bold text-inherit"
                                   >
                                     <h6 className="mb-0">
-                                      Haldiram's Nagpur Aloo Bhujia
+                                      लाल मिर्च पाउडर
                                     </h6>
                                   </Link>
                                   <span>
@@ -178,7 +178,7 @@ const MyAccountOrder = () => {
                                   </Link>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  March 5, 2023
+                                  March 5, 2026
                                 </td>
                                 <td className="align-middle border-top-0">1</td>
                                 <td className="align-middle border-top-0">
@@ -187,7 +187,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $15.00
+                                  Rs 150.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
@@ -212,7 +212,7 @@ const MyAccountOrder = () => {
                                     className="fw-semi-bold text-inherit"
                                   >
                                     <h6 className="mb-0">
-                                      Nutri Choise Biscuit
+                                      कश्मीरी लाल मिर्च
                                     </h6>
                                   </Link>
                                   <span>
@@ -225,7 +225,7 @@ const MyAccountOrder = () => {
                                   </Link>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  July 9, 2023
+                                  July 9, 2026
                                 </td>
                                 <td className="align-middle border-top-0">2</td>
                                 <td className="align-middle border-top-0">
@@ -234,7 +234,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $45.00
+                                  Rs 450.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
@@ -256,7 +256,7 @@ const MyAccountOrder = () => {
                                 <td className="align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
                                     <h6 className="mb-0">
-                                      Cadbury Dairy Milk 5 Star Bites{" "}
+                                      धनिया पाउडर{" "}
                                     </h6>
                                     <span>
                                       <small className="text-muted">
@@ -271,7 +271,7 @@ const MyAccountOrder = () => {
                                   </Link>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  Oct 03, 2023
+                                  Oct 03, 2026
                                 </td>
                                 <td className="align-middle border-top-0">4</td>
                                 <td className="align-middle border-top-0">
@@ -280,7 +280,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $99.00
+                                  Rs 199.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
@@ -305,7 +305,7 @@ const MyAccountOrder = () => {
                                     className="fw-semi-bold text-inherit"
                                   >
                                     <h6 className="mb-0">
-                                      Onion Flavour Potato{" "}
+                                      जीरा पाउडर{" "}
                                     </h6>
                                   </Link>
                                   <span>
@@ -318,7 +318,7 @@ const MyAccountOrder = () => {
                                   </Link>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  March 5, 2023
+                                  March 5, 2026
                                 </td>
                                 <td className="align-middle border-top-0">1</td>
                                 <td className="align-middle border-top-0">
@@ -327,7 +327,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $12.00
+                                  Rs 120.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
@@ -352,7 +352,7 @@ const MyAccountOrder = () => {
                                     className="fw-semi-bold text-inherit"
                                   >
                                     <h6 className="mb-0">
-                                      Salted Instant Popcorn{" "}
+                                      काली मिर्च पाउडर{" "}
                                     </h6>
                                   </Link>
                                   <span>
@@ -365,7 +365,7 @@ const MyAccountOrder = () => {
                                   </Link>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  July 9, 2023
+                                  July 9, 2026
                                 </td>
                                 <td className="align-middle border-top-0">2</td>
                                 <td className="align-middle border-top-0">
@@ -374,7 +374,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $6.00
+                                  Rs 60.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
@@ -399,7 +399,7 @@ const MyAccountOrder = () => {
                                     className="fw-semi-bold text-inherit"
                                   >
                                     <h6 className="mb-0">
-                                      Blueberry Greek Yogurt{" "}
+                                      गरम मसाला{" "}
                                     </h6>
                                   </Link>
                                   <span>
@@ -412,7 +412,7 @@ const MyAccountOrder = () => {
                                   </Link>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  Oct 03, 2023
+                                  Oct 03, 2026
                                 </td>
                                 <td className="align-middle border-top-0">4</td>
                                 <td className="align-middle border-top-0">
@@ -421,7 +421,7 @@ const MyAccountOrder = () => {
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
-                                  $18.00
+                                  Rs 180.00
                                 </td>
                                 <td className="text-muted align-middle border-top-0">
                                   <Link to="#" className="text-inherit">
