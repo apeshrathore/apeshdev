@@ -87,7 +87,7 @@ const ShopCart = () => {
                           </div>
                           <div className="col-4 col-md-6">
                             {/* title */}
-                            <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
+                            <h6 className="mb-0">लाल मिर्च पाउडर</h6>
                             <span>
                               <small className="text-muted">.98 / lb</small>
                             </span>

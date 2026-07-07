@@ -93,7 +93,7 @@ const ProductItem = () => {
                   </div>
                   <div className="text-small mb-1">
                     <Link href="#!" className="text-decoration-none text-muted">
-                      <small>Snack &amp; Munchies</small>
+                      <small>whole spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -101,7 +101,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Haldiram's Sev Bhujia
+                      लाल मिर्च पाउडर
                     </Link>
                   </h2>
                   <div>
@@ -117,9 +117,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$18</span>{" "}
+                      <span className="text-dark">Rs 180</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $24
+                        Rs 240
                       </span>
                     </div>
                     <div>
@@ -196,7 +196,7 @@ const ProductItem = () => {
                   </div>
                   <div className="text-small mb-1">
                     <Link href="#!" className="text-decoration-none text-muted">
-                      <small>Bakery &amp; Biscuits</small>
+                      <small>whole spice</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -204,7 +204,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      NutriChoice Digestive{" "}
+                      हल्दी पाउडर{" "}
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -220,7 +220,7 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$24</span>
+                      <span className="text-dark">Rs 240</span>
                     </div>
                     <div>
                      <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
@@ -294,7 +294,7 @@ const ProductItem = () => {
                   </div>
                   <div className="text-small mb-1">
                     <Link href="#!" className="text-decoration-none text-muted">
-                      <small>Bakery &amp; Biscuits</small>
+                      <small>whole spice</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -302,7 +302,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Cadbury 5 Star Chocolate
+                      धनिया पाउडर
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -318,9 +318,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$32</span>{" "}
+                      <span className="text-dark">Rs 320</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $35
+                        Rs 350
                       </span>
                     </div>
                     <div>
@@ -398,7 +398,7 @@ const ProductItem = () => {
                   </div>
                   <div className="text-small mb-1">
                     <Link href="#!" className="text-decoration-none text-muted">
-                      <small>Snack &amp; Munchies</small>
+                      <small>whole spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -406,7 +406,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Onion Flavour Potato
+                      काली मिर्च पाउडर
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -422,9 +422,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$3</span>{" "}
+                      <span className="text-dark">Rs 300</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $5
+                        Rs 500
                       </span>
                     </div>
                     <div>
@@ -507,7 +507,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Salted Instant Popcorn{" "}
+                      गरम मसाला{" "}
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -523,9 +523,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between mt-4">
                     <div>
-                      <span className="text-dark">$13</span>{" "}
+                      <span className="text-dark">Rs 180</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $18
+                        Rs 240
                       </span>
                     </div>
                     <div>
@@ -603,7 +603,7 @@ const ProductItem = () => {
                   </div>
                   <div className="text-small mb-1">
                     <Link href="#!" className="text-decoration-none text-muted">
-                      <small>Dairy, Bread &amp; Eggs</small>
+                      <small>Blend Spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -611,7 +611,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Blueberry Greek Yogurt
+                      किचन किंग मसाला
                     </Link>
                   </h2>
                   <div>
@@ -627,9 +627,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$18</span>{" "}
+                      <span className="text-dark">Rs 180</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $24
+                        Rs 240
                       </span>
                     </div>
                     <div>
@@ -704,7 +704,7 @@ const ProductItem = () => {
                   </div>
                   <div className="text-small mb-1">
                     <Link href="#!" className="text-decoration-none text-muted">
-                      <small>Dairy, Bread &amp; Eggs</small>
+                      <small>Blend Spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -712,7 +712,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Britannia Cheese Slices
+                      मटन मसाला
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -728,7 +728,7 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$24</span>
+                      <span className="text-dark">Rs 240</span>
                     </div>
                     <div>
                      <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
@@ -810,7 +810,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Kellogg's Original Cereals
+                      पनीर मसाला
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -826,9 +826,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$32</span>{" "}
+                      <span className="text-dark">Rs 320</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $35
+                        Rs 400
                       </span>
                     </div>
                     <div>
@@ -903,7 +903,7 @@ const ProductItem = () => {
                   </div>
                   <div className="text-small mb-1">
                     <Link href="#!" className="text-decoration-none text-muted">
-                      <small>Snack &amp; Munchies</small>
+                      <small>whole spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -911,7 +911,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Slurrp Millet Chocolate{" "}
+                      तंदूरी मसाला{" "}
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -927,9 +927,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$3</span>{" "}
+                      <span className="text-dark">Rs 300</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $5
+                        Rs 400
                       </span>
                     </div>
                     <div>
@@ -1004,7 +1004,7 @@ const ProductItem = () => {
                   </div>
                   <div className="text-small mb-1">
                     <Link href="#!" className="text-decoration-none text-muted">
-                      <small>Dairy, Bread &amp; Eggs</small>
+                      <small>Blend Spices</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -1012,7 +1012,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Amul Butter - 500 g
+                      तेज पत्ता - 500 g
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -1028,9 +1028,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between mt-4">
                     <div>
-                      <span className="text-dark">$13</span>{" "}
+                      <span className="text-dark">Rs 400</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $18
+                        Rs 500
                       </span>
                     </div>
                     <div>

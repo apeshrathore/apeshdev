@@ -589,14 +589,14 @@ const Header = () => {
                       className="img-fluid rounded-3"
                     />
                     <div className="position-absolute ps-6 mt-8">
-                      {/* <h5 className=" mb-0 ">
-                        Dont miss this <br />
-                        offer today.
-                      </h5> */}
-                      <h5 className="mb-0 text-white">
+                      <h5 className=" mb-0 ">
                         Dont miss this <br />
                         offer today.
                       </h5>
+                      {/* <h5 className="mb-0 text-white">
+                        Dont miss this <br />
+                        offer today.
+                      </h5> */}
                       <Link
                         to="/Shop"
                         className="btn btn-primary btn-sm mt-3"

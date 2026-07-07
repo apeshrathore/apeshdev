@@ -100,7 +100,7 @@ const SingleShop = () => {
                         </div>
                         {/* heading */}
                         <div className="mt-4">
-                          <h1 className="mb-1 h4">E-Grocery Super Market</h1>
+                          <h1 className="mb-1 h4">Super Spices Shop</h1>
                           <div className="small text-muted">
                             <span>Everyday store prices </span>
                           </div>
@@ -192,127 +192,129 @@ const SingleShop = () => {
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Produce
+                              किचन किंग मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Dairy &amp; Eggs
+                              सब्ज़ी मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Beverages
+                              दाल मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Meat &amp; Seafood
+                              छोले मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Snacks &amp; Candy
+                              राजमा मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Frozen
+                              पाव भाजी मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Bakery
+                              गरम मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Prepared Foods
+                              बिरयानी मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Alcohol
+                              पुलाव मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Dry Goods &amp; Pasta
+                              तंदूरी मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Condiments &amp; Sauces
+                              चिकन मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Canned Goods &amp; Soups
+                              मीट मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Breakfast
+                              मटन मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Household
+                              फिश मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Baking Essentials
+                              पनीर मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Oils, Vinegars, &amp; Spices
+                              शाही पनीर मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Health Care
+                              सांभर मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Personal Care
+                              रसम मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Kitchen Supplies
+                              कढ़ी मसाला
+
+
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Floral
+                              चाट मसाला
                             </Link>
                           </li>
                           {/* nav item */}
                           <li className="nav-item">
                             <Link to="#!" className="nav-link">
-                              Party &amp; Gift Supplies
+                              कढ़ाई मसाला
                             </Link>
                           </li>
                         </ul>
@@ -323,7 +325,7 @@ const SingleShop = () => {
                         <div className="align-self-center p-8">
                           <div className="mb-3">
                             <h5 className="mb-0 fw-bold">
-                              E-Grocery Super Market
+                              Super Spices Shop
                             </h5>
                             <p className="mb-0 text-muted">
                               Whatever the occasion, we've got you covered.
@@ -334,7 +336,7 @@ const SingleShop = () => {
                               type="email"
                               className="form-control"
                               id="exampleFormControlInput1"
-                              placeholder="Search E-Grocery Super Market"
+                              placeholder="Search Spices"
                             />
                             <span className="position-absolute end-0 top-0 mt-2 me-3">
                               <svg
@@ -459,7 +461,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-decoration-none text-muted"
                                 >
-                                  <small>Snack &amp; Munchies</small>
+                                  <small>whole spice</small>
                                 </Link>
                               </div>
                               <h2 className="fs-6">
@@ -467,7 +469,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-inherit text-decoration-none"
                                 >
-                                  Haldiram's Sev Bhujia
+                                  लाल मिर्च पाउडर
                                 </Link>
                               </h2>
                               <div>
@@ -487,9 +489,9 @@ const SingleShop = () => {
                               {/* price */}
                               <div className="d-flex justify-content-between align-items-center mt-3">
                                 <div>
-                                  <span className="text-dark">$18</span>
+                                  <span className="text-dark">Rs 100</span>
                                   <span className="text-decoration-line-through text-muted">
-                                    $24
+                                    Rs 240
                                   </span>
                                 </div>
                                 <div>
@@ -574,7 +576,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-decoration-none text-muted"
                                 >
-                                  <small>Bakery &amp; Biscuits</small>
+                                  <small>whole spice</small>
                                 </Link>
                               </div>
                               <h2 className="fs-6">
@@ -582,7 +584,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-inherit text-decoration-none"
                                 >
-                                  NutriChoice Digestive
+                                  हल्दी पाउडर
                                 </Link>
                               </h2>
                               <div className="text-warning">
@@ -601,7 +603,7 @@ const SingleShop = () => {
                               {/* price */}
                               <div className="d-flex justify-content-between align-items-center mt-3">
                                 <div>
-                                  <span className="text-dark">$24</span>
+                                  <span className="text-dark">Rs 100</span>
                                 </div>
                                 <div>
                                   {/* btn */}
@@ -685,7 +687,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-decoration-none text-muted"
                                 >
-                                  <small>Bakery &amp; Biscuits</small>
+                                  <small>whole spice</small>
                                 </Link>
                               </div>
                               <h2 className="fs-6">
@@ -693,7 +695,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-inherit text-decoration-none"
                                 >
-                                  Cadbury 5 Star Chocolate
+                                  धनिया पाउडर
                                 </Link>
                               </h2>
                               <div className="text-warning">
@@ -712,9 +714,9 @@ const SingleShop = () => {
                               {/* price */}
                               <div className="d-flex justify-content-between align-items-center mt-3">
                                 <div>
-                                  <span className="text-dark">$32</span>
+                                  <span className="text-dark">Rs 320</span>
                                   <span className="text-decoration-line-through text-muted">
-                                    $35
+                                    Rs 350
                                   </span>
                                 </div>
                                 <div>
@@ -799,7 +801,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-decoration-none text-muted"
                                 >
-                                  <small>Snack &amp; Munchies</small>
+                                  <small>whole spice</small>
                                 </Link>
                               </div>
                               <h2 className="fs-6">
@@ -807,7 +809,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-inherit text-decoration-none"
                                 >
-                                  Onion Flavour Potato
+                                  काली मिर्च
                                 </Link>
                               </h2>
                               <div className="text-warning">
@@ -826,9 +828,9 @@ const SingleShop = () => {
                               {/* price */}
                               <div className="d-flex justify-content-between align-items-center mt-3">
                                 <div>
-                                  <span className="text-dark">$3</span>
+                                  <span className="text-dark">Rs 300</span>
                                   <span className="text-decoration-line-through text-muted">
-                                    $5
+                                    Rs 500
                                   </span>
                                 </div>
                                 <div>
@@ -913,7 +915,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-decoration-none text-muted"
                                 >
-                                  <small>Instant Food</small>
+                                  <small>Instant spice</small>
                                 </Link>
                               </div>
                               <h2 className="fs-6">
@@ -921,7 +923,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-inherit text-decoration-none"
                                 >
-                                  Salted Instant Popcorn
+                                  गरम मसाला
                                 </Link>
                               </h2>
                               <div className="text-warning">
@@ -939,9 +941,9 @@ const SingleShop = () => {
                               </div>
                               <div className="d-flex justify-content-between mt-4">
                                 <div>
-                                  <span className="text-dark">$13</span>
+                                  <span className="text-dark">Rs 1300</span>
                                   <span className="text-decoration-line-through text-muted">
-                                    $18
+                                    Rs 1800
                                   </span>
                                 </div>
                                 <div>
@@ -1029,7 +1031,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-decoration-none text-muted"
                                 >
-                                  <small>Dairy, Bread &amp; Eggs</small>
+                                  <small>whole spice</small>
                                 </Link>
                               </div>
                               <h2 className="fs-6">
@@ -1037,7 +1039,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-inherit text-decoration-none"
                                 >
-                                  Blueberry Greek Yogurt
+                                  किचन किंग मसाला
                                 </Link>
                               </h2>
                               <div>
@@ -1057,9 +1059,9 @@ const SingleShop = () => {
                               {/* price */}
                               <div className="d-flex justify-content-between align-items-center mt-3">
                                 <div>
-                                  <span className="text-dark">$18</span>
+                                  <span className="text-dark">Rs 180</span>
                                   <span className="text-decoration-line-through text-muted">
-                                    $24
+                                    Rs 250
                                   </span>
                                 </div>
                                 <div>
@@ -1144,7 +1146,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-decoration-none text-muted"
                                 >
-                                  <small>Dairy, Bread &amp; Eggs</small>
+                                  <small>whole spice</small>
                                 </Link>
                               </div>
                               <h2 className="fs-6">
@@ -1152,7 +1154,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-inherit text-decoration-none"
                                 >
-                                  Britannia Cheese Slices
+                                  मटन मसाला
                                 </Link>
                               </h2>
                               <div className="text-warning">
@@ -1171,7 +1173,7 @@ const SingleShop = () => {
                               {/* price */}
                               <div className="d-flex justify-content-between align-items-center mt-3">
                                 <div>
-                                  <span className="text-dark">$24</span>
+                                  <span className="text-dark">Rs 240</span>
                                 </div>
                                 <div>
                                   {/* btn */}
@@ -1255,7 +1257,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-decoration-none text-muted"
                                 >
-                                  <small>Instant Food</small>
+                                  <small>Instant spice</small>
                                 </Link>
                               </div>
                               <h2 className="fs-6">
@@ -1263,7 +1265,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-inherit text-decoration-none"
                                 >
-                                  Kellogg's Original Cereals
+                                  पनीर मसाला
                                 </Link>
                               </h2>
                               <div className="text-warning">
@@ -1280,9 +1282,9 @@ const SingleShop = () => {
                               {/* price */}
                               <div className="d-flex justify-content-between align-items-center mt-3">
                                 <div>
-                                  <span className="text-dark">$32</span>
+                                  <span className="text-dark">Rs 320</span>
                                   <span className="text-decoration-line-through text-muted">
-                                    $35
+                                    Rs 400
                                   </span>
                                 </div>
                                 <div>
@@ -1367,7 +1369,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-decoration-none text-muted"
                                 >
-                                  <small>Snack &amp; Munchies</small>
+                                  <small>Blend Spice</small>
                                 </Link>
                               </div>
                               <h2 className="fs-6">
@@ -1375,7 +1377,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-inherit text-decoration-none"
                                 >
-                                  Slurrp Millet Chocolate
+                                  तंदूरी मसाला
                                 </Link>
                               </h2>
                               <div className="text-warning">
@@ -1394,9 +1396,9 @@ const SingleShop = () => {
                               {/* price */}
                               <div className="d-flex justify-content-between align-items-center mt-3">
                                 <div>
-                                  <span className="text-dark">$3</span>
+                                  <span className="text-dark">Rs 300</span>
                                   <span className="text-decoration-line-through text-muted">
-                                    $5
+                                    Rs 500
                                   </span>
                                 </div>
                                 <div>
@@ -1481,7 +1483,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-decoration-none text-muted"
                                 >
-                                  <small>Dairy, Bread &amp; Eggs</small>
+                                  <small>Blend spice</small>
                                 </Link>
                               </div>
                               <h2 className="fs-6">
@@ -1489,7 +1491,7 @@ const SingleShop = () => {
                                   to="#!"
                                   className="text-inherit text-decoration-none"
                                 >
-                                  Amul Butter - 500 g
+                                  तेज पत्ता
                                 </Link>
                               </h2>
                               <div className="text-warning">
@@ -1507,9 +1509,9 @@ const SingleShop = () => {
                               </div>
                               <div className="d-flex justify-content-between mt-4">
                                 <div>
-                                  <span className="text-dark">$13</span>
+                                  <span className="text-dark">Rs 130</span>
                                   <span className="text-decoration-line-through text-muted">
-                                    $18
+                                    Rs 180
                                   </span>
                                 </div>
                                 <div>
