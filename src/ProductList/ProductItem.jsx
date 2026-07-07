@@ -101,7 +101,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      लाल मिर्च पाउडर
+                      लाल मिर्च पाउडर - 1 Kg
                     </Link>
                   </h2>
                   <div>
@@ -117,9 +117,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">Rs 180</span>{" "}
+                      <span className="text-dark">Rs 450</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        Rs 240
+                        Rs 600
                       </span>
                     </div>
                     <div>
@@ -204,7 +204,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      हल्दी पाउडर{" "}
+                      हल्दी पाउडर - 1 Kg{" "}
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -220,7 +220,7 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">Rs 240</span>
+                      <span className="text-dark">Rs 349</span>
                     </div>
                     <div>
                      <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
@@ -302,7 +302,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      धनिया पाउडर
+                      धनिया पाउडर - 1 Kg
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -318,9 +318,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">Rs 320</span>{" "}
+                      <span className="text-dark">Rs 332</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        Rs 350
+                        Rs 400
                       </span>
                     </div>
                     <div>
@@ -406,7 +406,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      काली मिर्च पाउडर
+                      काली मिर्च पाउडर - 100g
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -422,9 +422,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">Rs 300</span>{" "}
+                      <span className="text-dark">Rs 182</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        Rs 500
+                        Rs 217
                       </span>
                     </div>
                     <div>
@@ -507,7 +507,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      गरम मसाला{" "}
+                      गरम मसाला - 100g{" "}
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -523,9 +523,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between mt-4">
                     <div>
-                      <span className="text-dark">Rs 180</span>{" "}
+                      <span className="text-dark">Rs 117</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        Rs 240
+                        Rs 144
                       </span>
                     </div>
                     <div>
@@ -611,7 +611,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      किचन किंग मसाला
+                      किचन किंग मसाला - 100g
                     </Link>
                   </h2>
                   <div>
@@ -627,9 +627,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">Rs 180</span>{" "}
+                      <span className="text-dark">Rs 66</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        Rs 240
+                        Rs 116
                       </span>
                     </div>
                     <div>
@@ -712,7 +712,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      मटन मसाला
+                      मटन मसाला - 100g
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -728,7 +728,7 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">Rs 240</span>
+                      <span className="text-dark">Rs 73</span>
                     </div>
                     <div>
                      <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
@@ -810,7 +810,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      पनीर मसाला
+                      पनीर मसाला - 100g
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -826,9 +826,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">Rs 320</span>{" "}
+                      <span className="text-dark">Rs 94</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        Rs 400
+                        Rs 132
                       </span>
                     </div>
                     <div>
@@ -911,7 +911,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      तंदूरी मसाला{" "}
+                      तंदूरी मसाला- 100g{" "}
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -927,9 +927,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">Rs 300</span>{" "}
+                      <span className="text-dark">Rs 112</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        Rs 400
+                        Rs 154
                       </span>
                     </div>
                     <div>
@@ -1012,7 +1012,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      तेज पत्ता - 500 g
+                      तेज पत्ता - 100g
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -1028,9 +1028,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between mt-4">
                     <div>
-                      <span className="text-dark">Rs 400</span>{" "}
+                      <span className="text-dark">Rs 122</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        Rs 500
+                        Rs 166
                       </span>
                     </div>
                     <div>
