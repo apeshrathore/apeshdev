@@ -52,7 +52,7 @@ const Blog = () => {
                     <div className="row">
                       {/* logo */}
                       <div className="col-12">
-                        <h1 className="fw-bold">FreshCart Blog</h1>
+                        <h1 className="fw-bold">Jyoti Revolution Blog</h1>
                       </div>
                     </div>
                   </div>
@@ -85,14 +85,11 @@ const Blog = () => {
                         <div className="ps-lg-8 mt-8 mt-lg-0">
                           <h2 className="mb-3">
                             <Link to="#!" className="text-inherit">
-                              Garlic Cream Bucatini with Peas and Asparagus
+                              हमारी गुणवत्ता क्यों चुनें?
                             </Link>
                           </h2>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nunc ac erat ut neque bibendum egestas sed
-                            quis justo. Integer non rhoncus diam. Nullam eget
-                            dapibus lectus, vitae condimentum sem.
+                            Jyoti Revolution Food Industry के मसाले क्यों हैं सबसे अलग?
                           </p>
                           <div className="d-flex justify-content-between text-muted">
                             <span>
@@ -129,19 +126,17 @@ const Blog = () => {
                         </Zoom>
                         {/* text */}
                         <div className="mb-3">
-                          <Link to="#!">Recipes</Link>
+                          <Link to="#!">स्वास्थ्य</Link>
                         </div>
                         {/* text */}
                         <div>
                           <h2 className="h5">
                             <Link to="#!" className="text-inherit">
-                              Harissa Chickpeas with Whipped Feta
+                              1. हल्दी पाउडर के फायदे
                             </Link>
                           </h2>
                           <p>
-                            In et eros dapibus, facilisis ipsum sit amet, tempor
-                            dolor. Donec sed nisi gravida, molestie dolor
-                            molestie, congue sapien.
+                            हल्दी पाउडर के 10 अद्भुत फायदे और सही उपयोग
                           </p>
                           <div className="d-flex justify-content-between text-muted mt-4">
                             <span>
@@ -173,19 +168,17 @@ const Blog = () => {
                         </Zoom>
                         {/* text */}
                         <div className="mb-3">
-                          <Link to="#!">Recipes</Link>
+                          <Link to="#!">स्वास्थ्य</Link>
                         </div>
                         {/* text */}
                         <div>
                           <h2 className="h5">
                             <Link to="#!" className="text-inherit">
-                              Almond Butter Chocolate Chip Zucchini Bars
+                              2. लाल मिर्च पाउडर
                             </Link>
                           </h2>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elitaenean sit amet tincidunt ellentesque aliquet
-                            ligula in ultrices congue.
+                            शुद्ध लाल मिर्च पाउडर की पहचान कैसे करें?
                           </p>
                           <div className="d-flex justify-content-between text-muted mt-4">
                             <span>
@@ -223,13 +216,11 @@ const Blog = () => {
                           {/* text */}
                           <h2 className="h5">
                             <Link to="#!" className="text-inherit">
-                              Spicy Shrimp Tacos Garlic Cilantro Lime Slaw
+                              3. धनिया पाउडर
                             </Link>
                           </h2>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elitaenean sit amet tincidunt ellentesque aliquet
-                            ligula in ultrices congue.
+                            धनिया पाउडर खाने का स्वाद कैसे बढ़ाता है?
                           </p>
                           <div className="d-flex justify-content-between text-muted mt-4">
                             <span>
@@ -261,19 +252,17 @@ const Blog = () => {
                         </Zoom>
                         {/* text */}
                         <div className="mb-3">
-                          <Link to="#!">Recipes</Link>
+                          <Link to="#!">स्वास्थ्य</Link>
                         </div>
                         <div>
                           {/* text */}
                           <h2 className="h5">
                             <Link to="#!" className="text-inherit">
-                              Red Chile Chicken Tacos with Creamy Corn
+                              4. गरम मसाला
                             </Link>
                           </h2>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elitaenean sit amet tincidunt ellentesque aliquet
-                            ligula in ultrices congue.
+                            घर पर स्वादिष्ट गरम मसाला कैसे इस्तेमाल करें?
                           </p>
                           <div className="d-flex justify-content-between text-muted mt-4">
                             <span>
@@ -304,19 +293,17 @@ const Blog = () => {
                         </div>
                         </Zoom>
                         <div className="mb-3">
-                          <Link to="#!">Retailer</Link>
+                          <Link to="#!">किचन टिप्स</Link>
                         </div>
                         <div>
                           {/* text */}
                           <h2 className="h5">
                             <Link to="#!" className="text-inherit">
-                              Basic + Awesome Broccoli Cheese Soup
+                              5. तंदूरी मसाला
                             </Link>
                           </h2>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elitaenean sit amet tincidunt ellentesque aliquet
-                            ligula in ultrices congue.
+                            तंदूरी मसाले से होटल जैसा स्वाद घर पर कैसे पाएँ?
                           </p>
                           <div className="d-flex justify-content-between text-muted mt-4">
                             <span>
@@ -349,19 +336,17 @@ const Blog = () => {
                         </Zoom>
                         {/* text */}
                         <div className="mb-3">
-                          <Link to="#!">Recipes</Link>
+                          <Link to="#!">स्वास्थ्य</Link>
                         </div>
                         <div>
                           {/* text */}
                           <h2 className="h5">
                             <Link to="#!" className="text-inherit">
-                              No-Boil Baked Penne with Meatballs{" "}
+                              6. पनीर मसाला{" "}
                             </Link>
                           </h2>
                           <p>
-                            Nulla consectetur sapien a libero imperdiet posuere.
-                            Donec sollicitudin, turpis sit amet sollicitudin
-                            tristique, metus eros euismod tortor
+                            रेस्टोरेंट स्टाइल शाही पनीर बनाने की आसान विधि
                           </p>
                           <div className="d-flex justify-content-between text-muted mt-4">
                             <span>
@@ -393,19 +378,17 @@ const Blog = () => {
                         </Zoom>
                         {/* text */}
                         <div className="mb-3">
-                          <Link to="#!">Recipes</Link>
+                          <Link to="#!">स्वास्थ्य</Link>
                         </div>
                         <div>
                           {/* text */}
                           <h2 className="h5">
                             <Link to="#!" className="text-inherit">
-                              Red Chile Chicken Tacos with Creamy Corn
+                              7. Kitchen King Masala
                             </Link>
                           </h2>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elitaenean sit amet tincidunt ellentesque aliquet
-                            ligula in ultrices congue.
+                            Kitchen King मसाला किन-किन सब्जियों में इस्तेमाल करें?
                           </p>
                           <div className="d-flex justify-content-between text-muted mt-4">
                             <span>
@@ -437,19 +420,17 @@ const Blog = () => {
                         </Zoom>
                         {/* text */}
                         <div className="mb-3">
-                          <Link to="#!">Retailer</Link>
+                          <Link to="#!">किचन टिप्स</Link>
                         </div>
                         <div>
                           {/* text */}
                           <h2 className="h5">
                             <Link to="#!" className="text-inherit">
-                              Basic + Awesome Broccoli Cheese Soup
+                              8. शुद्ध मसालों की पहचान
                             </Link>
                           </h2>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elitaenean sit amet tincidunt ellentesque aliquet
-                            ligula in ultrices congue.
+                            असली और नकली मसालों की पहचान कैसे करें?
                           </p>
                           <div className="d-flex justify-content-between text-muted mt-4">
                             <span>
@@ -480,19 +461,17 @@ const Blog = () => {
                         </div>
                         </Zoom>
                         <div className="mb-3">
-                          <Link to="#!">Recipes</Link>
+                          <Link to="#!">स्वास्थ्य</Link>
                         </div>
                         <div>
                           {/* text */}
                           <h2 className="h5">
                             <Link to="#!" className="text-inherit">
-                              No-Boil Baked Penne with Meatballs{" "}
+                              9. मसालों को कैसे स्टोर करें?{" "}
                             </Link>
                           </h2>
                           <p>
-                            Nulla consectetur sapien a libero imperdiet posuere.
-                            Donec sollicitudin, turpis sit amet sollicitudin
-                            tristique, metus eros euismod tortor
+                            मसालों की खुशबू लंबे समय तक बनाए रखने के आसान तरीके
                           </p>
                           <div className="d-flex justify-content-between text-muted mt-4">
                             <span>
