@@ -120,7 +120,7 @@ const ShopWishList = () => {
                                   लाल मिर्च
                                 </Link>
                               </h5>
-                              <small>250g</small>
+                              <small>100g</small>
                             </div>
                           </td>
                           <td className="align-middle">Rs 110</td>
@@ -178,10 +178,10 @@ const ShopWishList = () => {
                                   हल्दी
                                 </Link>
                               </h5>
-                              <small>250g</small>
+                              <small>100g</small>
                             </div>
                           </td>
-                          <td className="align-middle">Rs 110</td>
+                          <td className="align-middle">Rs 41</td>
                           <td className="align-middle">
                             <span className="badge bg-danger">
                               Out of Stock
@@ -238,10 +238,10 @@ const ShopWishList = () => {
                                   धनिया पाउडर
                                 </Link>
                               </h5>
-                              <small>250g</small>
+                              <small>100g</small>
                             </div>
                           </td>
-                          <td className="align-middle">Rs 110</td>
+                          <td className="align-middle">Rs 40.00</td>
                           <td className="align-middle">
                             <span className="badge bg-success">In Stock</span>
                           </td>
@@ -296,10 +296,10 @@ const ShopWishList = () => {
                                   जीरा पाउडर
                                 </Link>
                               </h5>
-                              <small>1 kg</small>
+                              <small>100g</small>
                             </div>
                           </td>
-                          <td className="align-middle">Rs 110</td>
+                          <td className="align-middle">Rs 94</td>
                           <td className="align-middle">
                             <span className="badge bg-success">In Stock</span>
                           </td>
@@ -354,10 +354,10 @@ const ShopWishList = () => {
                                   काली मिर्च पाउडर
                                 </Link>
                               </h5>
-                              <small>2 kg</small>
+                              <small>100g</small>
                             </div>
                           </td>
-                          <td className="align-middle">Rs 110.00</td>
+                          <td className="align-middle">Rs 180.00</td>
                           <td className="align-middle">
                             <span className="badge bg-success">In Stock</span>
                           </td>
