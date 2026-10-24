@@ -311,7 +311,7 @@ const Footer = () => {
                   © {year} All Rights Reserved By _
                   
                   <Link
-                    to="https://www.instagram.com/jyotirevolutionfoodindustries/"
+                    to="https://www.instagram.com/rameshrathouriya/"
                     target="_blank"
                   >
                      @jyotirevolutionfoodindustries
