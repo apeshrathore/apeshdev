@@ -311,10 +311,10 @@ const Footer = () => {
                   © {year} All Rights Reserved By _
                   
                   <Link
-                    to="https://www.instagram.com/apeshrathore/"
+                    to="https://www.instagram.com/jyotirevolutionfoodindustries/"
                     target="_blank"
                   >
-                     @apeshrathore
+                     @jyotirevolutionfoodindustries
                   </Link>
                 </div>
               </div>
